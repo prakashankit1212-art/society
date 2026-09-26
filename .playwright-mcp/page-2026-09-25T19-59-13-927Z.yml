@@ -1,0 +1,95 @@
+- generic [ref=f2e208]:
+  - complementary [ref=f2e209]:
+    - generic [ref=f2e215]:
+      - generic [ref=f2e216]: SocietyConnect
+      - generic [ref=f2e217]: Greenview Residency
+    - generic [ref=f2e218]: HOME
+    - navigation [ref=f2e219]:
+      - link "Overview" [ref=f2e220] [cursor=pointer]:
+        - /url: /resident/dashboard
+      - link "My Complaints" [ref=f2e226] [cursor=pointer]:
+        - /url: /resident/complaints
+      - link "Feedback" [ref=f2e232] [cursor=pointer]:
+        - /url: /resident/feedback
+      - button "Profile" [ref=f2e236] [cursor=pointer]
+    - generic [ref=f2e242]:
+      - generic [ref=f2e243]: AS
+      - generic [ref=f2e244]:
+        - strong [ref=f2e245]: Archana Sharma
+        - generic [ref=f2e246]: Block B • Flat 204
+    - button "Sign out" [ref=f2e247] [cursor=pointer]
+  - main [ref=f2e252]:
+    - generic [ref=f2e253]:
+      - button "Open navigation" [ref=f2e342] [cursor=pointer]
+      - generic [ref=f2e259]:
+        - button "Notifications" [ref=f2e261] [cursor=pointer]
+        - generic [ref=f2e265]:
+          - 'button "Current society: Greenview Residency" [expanded] [active] [ref=f2e345] [cursor=pointer]'
+          - menu "Current society" [ref=f2e346]:
+            - generic [ref=f2e347]: CURRENT SOCIETY
+            - generic [ref=f2e348]:
+              - strong [ref=f2e349]: Greenview Residency
+              - generic [ref=f2e350]: Raigarh, Chhattisgarh
+            - generic [ref=f2e351]:
+              - generic [ref=f2e352]:
+                - strong [ref=f2e353]: "3"
+                - generic [ref=f2e354]: Blocks
+              - generic [ref=f2e355]:
+                - strong [ref=f2e356]: "7"
+                - generic [ref=f2e357]: Residents
+              - generic [ref=f2e358]:
+                - strong [ref=f2e359]: "4"
+                - generic [ref=f2e360]: Staff
+            - generic [ref=f2e361]:
+              - menuitem "View society details" [ref=f2e362] [cursor=pointer]
+              - menuitem "Blocks" [ref=f2e365] [cursor=pointer]
+              - menuitem "Society information" [ref=f2e368] [cursor=pointer]
+            - button "Switch society" [disabled] [ref=f2e372]
+    - generic [ref=f2e273]:
+      - button "Back" [ref=f2e274] [cursor=pointer]
+      - generic [ref=f2e278]:
+        - generic [ref=f2e279]: Current society
+        - heading "Greenview Residency" [level=1] [ref=f2e280]
+        - paragraph [ref=f2e281]: Society information and community contacts.
+      - region "Society summary" [ref=f2e282]:
+        - article [ref=f2e283]:
+          - generic [ref=f2e288]: Blocks
+          - strong [ref=f2e289]: "3"
+        - article [ref=f2e290]:
+          - generic [ref=f2e296]: Residents
+          - strong [ref=f2e297]: "7"
+        - article [ref=f2e298]:
+          - generic [ref=f2e303]: Staff
+          - strong [ref=f2e304]: "4"
+      - generic [ref=f2e305]:
+        - generic [ref=f2e306]:
+          - generic [ref=f2e307]: Society profile
+          - heading "Basic information" [level=2] [ref=f2e308]
+          - generic [ref=f2e309]:
+            - generic [ref=f2e310]:
+              - term [ref=f2e311]: Society name
+              - definition [ref=f2e312]: Greenview Residency
+            - generic [ref=f2e313]:
+              - term [ref=f2e314]: Location
+              - definition [ref=f2e315]: Raigarh, Chhattisgarh
+            - generic [ref=f2e316]:
+              - term [ref=f2e317]: Address
+              - definition [ref=f2e318]: Greenview Residency, Raigarh, Chhattisgarh
+            - generic [ref=f2e319]:
+              - term [ref=f2e320]: Your role
+              - definition [ref=f2e321]: Resident
+        - generic [ref=f2e322]:
+          - generic [ref=f2e323]: Contact
+          - heading "Society office" [level=2] [ref=f2e324]
+          - generic [ref=f2e325]:
+            - link "Phone +91 90000 10000" [ref=f2e326] [cursor=pointer]:
+              - /url: tel:+91 90000 10000
+              - generic [ref=f2e330]:
+                - generic [ref=f2e331]: Phone
+                - strong [ref=f2e332]: +91 90000 10000
+            - link "Email president@greenview.example.com" [ref=f2e333] [cursor=pointer]:
+              - /url: mailto:president@greenview.example.com
+              - generic [ref=f2e336]:
+                - generic [ref=f2e337]: Email
+                - strong [ref=f2e338]: president@greenview.example.com
+      - button "View blocks" [ref=f2e339] [cursor=pointer]

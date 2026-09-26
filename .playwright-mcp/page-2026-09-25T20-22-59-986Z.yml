@@ -1,0 +1,127 @@
+- generic [ref=f16e3]:
+  - complementary [ref=f16e4]:
+    - generic [ref=f16e10]:
+      - generic [ref=f16e11]: SocietyConnect
+      - generic [ref=f16e12]: Greenview Residency
+    - generic [ref=f16e13]: MANAGEMENT
+    - navigation [ref=f16e14]:
+      - link "Overview" [ref=f16e15] [cursor=pointer]:
+        - /url: /president/dashboard
+      - link "Complaints" [ref=f16e21] [cursor=pointer]:
+        - /url: /president/complaints
+      - link "Staff" [ref=f16e27] [cursor=pointer]:
+        - /url: /president/staff
+      - link "Residents" [ref=f16e32] [cursor=pointer]:
+        - /url: /president/residents
+      - link "Notices" [ref=f16e38] [cursor=pointer]:
+        - /url: /president/notices
+      - link "Analytics" [ref=f16e43] [cursor=pointer]:
+        - /url: /president/analytics
+      - button "Profile" [ref=f16e48] [cursor=pointer]
+    - generic [ref=f16e54]:
+      - generic [ref=f16e55]: SP
+      - generic [ref=f16e56]:
+        - strong [ref=f16e57]: Society President
+        - generic [ref=f16e58]: Society President
+    - button "Sign out" [ref=f16e59] [cursor=pointer]
+  - main [ref=f16e64]:
+    - generic [ref=f16e65]:
+      - textbox "Search" [ref=f16e70]:
+        - /placeholder: Search complaints, residents...
+      - generic [ref=f16e71]:
+        - button "Notifications" [ref=f16e73] [cursor=pointer]
+        - 'button "Current society: Greenview Residency" [ref=f16e78] [cursor=pointer]':
+          - generic [ref=f16e82]: Greenview Residency
+    - generic [ref=f16e85]:
+      - generic [ref=f16e86]:
+        - generic [ref=f16e87]:
+          - generic [ref=f16e88]: People operations
+          - heading "Staff management" [level=1] [ref=f16e89]
+          - paragraph [ref=f16e90]: Manage the society team and see who is currently handling resident requests.
+        - button "Add staff member" [ref=f16e91] [cursor=pointer]
+      - generic [ref=f16e94]:
+        - textbox "Search staff, role, specialty..." [ref=f16e99]
+        - generic [ref=f16e100]:
+          - generic [ref=f16e101]: Team members
+          - strong [ref=f16e102]: "4"
+      - generic [ref=f16e103]:
+        - article [ref=f16e104]:
+          - generic [ref=f16e105]:
+            - generic [ref=f16e106]: RK
+            - generic [ref=f16e107]:
+              - strong [ref=f16e108]: Ramesh Kumar
+              - generic [ref=f16e109]: Maintenance Lead
+            - generic [ref=f16e110]: Active
+          - generic [ref=f16e111]:
+            - generic [ref=f16e112]:
+              - generic [ref=f16e113]: Specialty
+              - strong [ref=f16e114]: Maintenance
+            - generic [ref=f16e115]:
+              - generic [ref=f16e116]: Open workload
+              - strong [ref=f16e117]: "2"
+            - generic [ref=f16e118]:
+              - generic [ref=f16e119]: Phone
+              - strong [ref=f16e120]: +91 90000 11001
+          - generic [ref=f16e121]:
+            - generic [ref=f16e122]: Joined 12 Jan 2025
+            - button "Mark on leave" [ref=f16e123] [cursor=pointer]
+        - article [ref=f16e124]:
+          - generic [ref=f16e125]:
+            - generic [ref=f16e126]: VS
+            - generic [ref=f16e127]:
+              - strong [ref=f16e128]: Vikram Shah
+              - generic [ref=f16e129]: Electrician
+            - generic [ref=f16e130]: Active
+          - generic [ref=f16e131]:
+            - generic [ref=f16e132]:
+              - generic [ref=f16e133]: Specialty
+              - strong [ref=f16e134]: Electricity
+            - generic [ref=f16e135]:
+              - generic [ref=f16e136]: Open workload
+              - strong [ref=f16e137]: "0"
+            - generic [ref=f16e138]:
+              - generic [ref=f16e139]: Phone
+              - strong [ref=f16e140]: +91 90000 11002
+          - generic [ref=f16e141]:
+            - generic [ref=f16e142]: Joined 06 Mar 2025
+            - button "Mark on leave" [ref=f16e143] [cursor=pointer]
+        - article [ref=f16e144]:
+          - generic [ref=f16e145]:
+            - generic [ref=f16e146]: MP
+            - generic [ref=f16e147]:
+              - strong [ref=f16e148]: Meena Patel
+              - generic [ref=f16e149]: Housekeeping
+            - generic [ref=f16e150]: Active
+          - generic [ref=f16e151]:
+            - generic [ref=f16e152]:
+              - generic [ref=f16e153]: Specialty
+              - strong [ref=f16e154]: Cleanliness
+            - generic [ref=f16e155]:
+              - generic [ref=f16e156]: Open workload
+              - strong [ref=f16e157]: "0"
+            - generic [ref=f16e158]:
+              - generic [ref=f16e159]: Phone
+              - strong [ref=f16e160]: +91 90000 11003
+          - generic [ref=f16e161]:
+            - generic [ref=f16e162]: Joined 18 Feb 2025
+            - button "Mark on leave" [ref=f16e163] [cursor=pointer]
+        - article [ref=f16e164]:
+          - generic [ref=f16e165]:
+            - generic [ref=f16e166]: AS
+            - generic [ref=f16e167]:
+              - strong [ref=f16e168]: Arjun Singh
+              - generic [ref=f16e169]: Security Supervisor
+            - generic [ref=f16e170]: On Leave
+          - generic [ref=f16e171]:
+            - generic [ref=f16e172]:
+              - generic [ref=f16e173]: Specialty
+              - strong [ref=f16e174]: Security
+            - generic [ref=f16e175]:
+              - generic [ref=f16e176]: Open workload
+              - strong [ref=f16e177]: "0"
+            - generic [ref=f16e178]:
+              - generic [ref=f16e179]: Phone
+              - strong [ref=f16e180]: +91 90000 11004
+          - generic [ref=f16e181]:
+            - generic [ref=f16e182]: Joined 22 Apr 2025
+            - button "Mark active" [ref=f16e183] [cursor=pointer]

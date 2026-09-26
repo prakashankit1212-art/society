@@ -1,0 +1,132 @@
+- generic [ref=f9e3]:
+  - complementary [ref=f9e4]:
+    - generic [ref=f9e10]:
+      - generic [ref=f9e11]: SocietyConnect
+      - generic [ref=f9e12]: Greenview Residency
+    - generic [ref=f9e13]: MANAGEMENT
+    - navigation [ref=f9e14]:
+      - link "Overview" [ref=f9e15] [cursor=pointer]:
+        - /url: /president/dashboard
+      - link "Complaints" [ref=f9e21] [cursor=pointer]:
+        - /url: /president/complaints
+      - link "Staff" [ref=f9e27] [cursor=pointer]:
+        - /url: /president/staff
+      - link "Residents" [ref=f9e32] [cursor=pointer]:
+        - /url: /president/residents
+      - link "Notices" [ref=f9e38] [cursor=pointer]:
+        - /url: /president/notices
+      - link "Analytics" [ref=f9e43] [cursor=pointer]:
+        - /url: /president/analytics
+      - button "Profile" [ref=f9e48] [cursor=pointer]
+    - generic [ref=f9e54]:
+      - generic [ref=f9e55]: SP
+      - generic [ref=f9e56]:
+        - strong [ref=f9e57]: Society President
+        - generic [ref=f9e58]: Society President
+    - button "Sign out" [ref=f9e59] [cursor=pointer]
+  - main [ref=f9e64]:
+    - generic [ref=f9e65]:
+      - button "Open navigation" [ref=f9e66] [cursor=pointer]
+      - generic [ref=f9e69]:
+        - button "Notifications" [ref=f9e71] [cursor=pointer]
+        - 'button "Current society: Greenview Residency" [ref=f9e76] [cursor=pointer]'
+    - generic [ref=f9e82]:
+      - generic [ref=f9e83]:
+        - generic [ref=f9e84]:
+          - button "Back to dashboard" [ref=f9e85] [cursor=pointer]
+          - generic [ref=f9e88]: Management queue
+          - heading "Resident complaints" [level=1] [ref=f9e89]
+          - paragraph [ref=f9e90]: Review, prioritize, assign, and update complaints submitted by residents.
+        - generic [ref=f9e91]:
+          - generic [ref=f9e92]: Total complaints
+          - strong [ref=f9e93]: "4"
+      - generic [ref=f9e94]:
+        - textbox "Search complaints, residents, or ID..." [ref=f9e99]
+        - combobox [ref=f9e100]:
+          - option "All Status" [selected]
+          - option "Under Review"
+          - option "In Progress"
+          - option "Resolved"
+        - combobox [ref=f9e101]:
+          - option "All Categories" [selected]
+          - option "Maintenance"
+          - option "Security"
+          - option "Electricity"
+          - option "Cleanliness"
+          - option "Parking"
+        - combobox [ref=f9e102]:
+          - option "All Assignees" [selected]
+          - option "Unassigned"
+          - option "Ramesh Kumar"
+          - option "Vikram Shah"
+          - option "Meena Patel"
+          - option "Arjun Singh"
+      - generic [ref=f9e103]:
+        - button "All priority" [ref=f9e104] [cursor=pointer]
+        - button "High" [ref=f9e105] [cursor=pointer]
+        - button "Medium" [ref=f9e106] [cursor=pointer]
+        - button "Low" [ref=f9e107] [cursor=pointer]
+        - generic [ref=f9e108]: 4 results
+      - generic [ref=f9e109]:
+        - generic [ref=f9e110]:
+          - generic [ref=f9e111]: Complaint
+          - generic [ref=f9e112]: Resident
+          - generic [ref=f9e113]: Category
+          - generic [ref=f9e114]: Assigned
+          - generic [ref=f9e115]: Priority
+          - generic [ref=f9e116]: Status
+          - generic [ref=f9e117]: Date
+          - generic [ref=f9e118]: Action
+        - generic [ref=f9e119]:
+          - generic [ref=f9e120]:
+            - generic [ref=f9e121]: Water leakage in Block B
+            - generic [ref=f9e122]: CMP001
+          - generic [ref=f9e123]:
+            - text: Archana
+            - generic [ref=f9e124]: Block B, Flat 204
+          - generic [ref=f9e125]: Maintenance
+          - generic [ref=f9e126]: Ramesh Kumar
+          - generic [ref=f9e127]: High
+          - generic [ref=f9e129]: In Progress
+          - generic [ref=f9e131]: 10 Aug 2026
+          - button "Review" [ref=f9e133] [cursor=pointer]
+        - generic [ref=f9e134]:
+          - generic [ref=f9e135]:
+            - generic [ref=f9e136]: Parking area lights
+            - generic [ref=f9e137]: CMP002
+          - generic [ref=f9e138]:
+            - text: Rahul
+            - generic [ref=f9e139]: Block A, Flat 102
+          - generic [ref=f9e140]: Electricity
+          - generic [ref=f9e141]: Vikram Shah
+          - generic [ref=f9e142]: Medium
+          - generic [ref=f9e144]: Resolved
+          - generic [ref=f9e146]: 08 Aug 2026
+          - button "Review" [ref=f9e148] [cursor=pointer]
+        - generic [ref=f9e149]:
+          - generic [ref=f9e150]:
+            - generic [ref=f9e151]: Lift not working properly
+            - generic [ref=f9e152]: CMP003
+          - generic [ref=f9e153]:
+            - text: Archana
+            - generic [ref=f9e154]: Block B, Flat 204
+          - generic [ref=f9e155]: Maintenance
+          - generic [ref=f9e156]: Ramesh Kumar
+          - generic [ref=f9e157]: Medium
+          - generic [ref=f9e159]: Under Review
+          - generic [ref=f9e161]: 06 Aug 2026
+          - button "Review" [ref=f9e163] [cursor=pointer]
+        - generic [ref=f9e164]:
+          - generic [ref=f9e165]:
+            - generic [ref=f9e166]: Cleaning required near Block A
+            - generic [ref=f9e167]: CMP004
+          - generic [ref=f9e168]:
+            - text: Rahul
+            - generic [ref=f9e169]: Block A, Flat 102
+          - generic [ref=f9e170]: Cleanliness
+          - generic [ref=f9e171]: Meena Patel
+          - generic [ref=f9e172]: Low
+          - generic [ref=f9e174]: Resolved
+          - generic [ref=f9e176]: 04 Aug 2026
+          - button "Review" [ref=f9e178] [cursor=pointer]
+        - generic [ref=f9e179]: Showing 4 of 4

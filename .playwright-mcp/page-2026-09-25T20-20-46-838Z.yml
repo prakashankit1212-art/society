@@ -1,0 +1,22 @@
+- main [ref=f11e3]:
+  - generic [ref=f11e5]:
+    - generic [ref=f11e6]: SocietyConnect
+    - generic [ref=f11e10]:
+      - text: Welcome back
+      - heading "Manage your society simply." [level=2] [ref=f11e11]
+      - paragraph [ref=f11e12]: Sign in to submit issues, follow updates, and stay connected with your community.
+    - generic [ref=f11e13]:
+      - generic [ref=f11e14]:
+        - generic [ref=f11e15]: Email address
+        - textbox "archana@email.com" [ref=f11e16]
+      - generic [ref=f11e17]:
+        - generic [ref=f11e18]: Password
+        - textbox "••••••••••" [ref=f11e19]
+      - generic [ref=f11e20]:
+        - generic [ref=f11e21]: Sign in as
+        - combobox [ref=f11e22]:
+          - option "Resident" [selected]
+          - option "Society President"
+          - option "Admin"
+      - button "Sign in" [ref=f11e23] [cursor=pointer]
+    - paragraph [ref=f11e26]: Society management made calmer, clearer, and easier.

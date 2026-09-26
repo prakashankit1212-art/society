@@ -1,0 +1,55 @@
+- generic [ref=f3e249]:
+  - complementary [ref=f3e250]:
+    - generic [ref=f3e256]:
+      - generic [ref=f3e257]: SocietyConnect
+      - generic [ref=f3e258]: Greenview Residency
+    - generic [ref=f3e259]: MANAGEMENT
+    - navigation [ref=f3e260]:
+      - link "Overview" [ref=f3e261] [cursor=pointer]:
+        - /url: /president/dashboard
+      - link "Complaints" [ref=f3e267] [cursor=pointer]:
+        - /url: /president/complaints
+      - link "Staff" [ref=f3e273] [cursor=pointer]:
+        - /url: /president/staff
+      - link "Residents" [ref=f3e278] [cursor=pointer]:
+        - /url: /president/residents
+      - link "Notices" [ref=f3e284] [cursor=pointer]:
+        - /url: /president/notices
+      - link "Analytics" [ref=f3e289] [cursor=pointer]:
+        - /url: /president/analytics
+      - button "Profile" [ref=f3e294] [cursor=pointer]
+    - generic [ref=f3e300]:
+      - generic [ref=f3e301]: SP
+      - generic [ref=f3e302]:
+        - strong [ref=f3e303]: Society President
+        - generic [ref=f3e304]: Society President
+    - button "Sign out" [ref=f3e305] [cursor=pointer]
+  - main [ref=f3e310]:
+    - generic [ref=f3e311]:
+      - button "Open navigation" [ref=f3e312] [cursor=pointer]
+      - generic [ref=f3e315]:
+        - button "Notifications" [ref=f3e317] [cursor=pointer]
+        - button [ref=f3e322] [cursor=pointer]
+    - generic [ref=f3e328]:
+      - button "Back to society" [ref=f3e329] [cursor=pointer]
+      - generic [ref=f3e333]:
+        - generic [ref=f3e334]: Management
+        - heading "Society settings" [level=1] [ref=f3e335]
+        - paragraph [ref=f3e336]: Review the details currently used for this society.
+      - generic [ref=f3e337]:
+        - generic [ref=f3e338]: Society profile
+        - heading "Contact and location" [level=2] [ref=f3e339]
+        - generic [ref=f3e340]:
+          - generic [ref=f3e341]:
+            - term [ref=f3e342]: Society name
+            - definition [ref=f3e343]: Greenview Residency
+          - generic [ref=f3e344]:
+            - term [ref=f3e345]: Address
+            - definition [ref=f3e346]: Greenview Residency, Raigarh, Chhattisgarh
+          - generic [ref=f3e347]:
+            - term [ref=f3e348]: Contact phone
+            - definition [ref=f3e349]: +91 90000 10000
+          - generic [ref=f3e350]:
+            - term [ref=f3e351]: Contact email
+            - definition [ref=f3e352]: president@greenview.example.com
+        - button "View society details" [ref=f3e353] [cursor=pointer]

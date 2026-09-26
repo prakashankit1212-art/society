@@ -1,0 +1,212 @@
+.president-details-page {
+  min-height: 100vh;
+  background: #f6f8fb;
+  padding: 40px;
+}
+
+.president-details-header {
+  max-width: 1000px;
+  margin: 0 auto 25px;
+}
+
+.back-button {
+  border: none;
+  background: transparent;
+  color: #2563eb;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.details-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details-title-row h1 {
+  margin: 0 0 7px;
+  color: #1e293b;
+  font-size: 28px;
+}
+
+.details-title-row p {
+  margin: 0;
+  color: #64748b;
+}
+
+.details-status {
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.details-status.pending {
+  background: #fff7ed;
+  color: #ea580c;
+}
+
+.details-status.progress {
+  background: #eff6ff;
+  color: #2563eb;
+}
+
+.details-status.resolved {
+  background: #f0fdf4;
+  color: #16a34a;
+}
+
+.president-details-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.president-details-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.president-details-card h2 {
+  margin: 0 0 20px;
+  color: #1e293b;
+  font-size: 19px;
+}
+
+.resident-details-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.resident-details-grid span,
+.complaint-info-grid span {
+  display: block;
+  color: #64748b;
+  font-size: 13px;
+  margin-bottom: 7px;
+}
+
+.resident-details-grid strong,
+.complaint-info-grid strong {
+  color: #334155;
+  font-size: 14px;
+}
+
+.complaint-info-grid {
+  display: flex;
+  gap: 80px;
+}
+
+.high-priority {
+  color: #dc2626 !important;
+}
+
+.complaint-description {
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.complaint-description h3 {
+  margin: 0 0 10px;
+  color: #334155;
+  font-size: 15px;
+}
+
+.complaint-description p {
+  margin: 0;
+  color: #475569;
+  line-height: 1.7;
+}
+
+.action-field {
+  margin-bottom: 22px;
+}
+
+.action-field label {
+  display: block;
+  margin-bottom: 8px;
+  color: #334155;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.action-field select,
+.action-field textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dbe1e8;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.action-field textarea {
+  resize: vertical;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.cancel-action,
+.update-action {
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cancel-action {
+  background: white;
+  border: 1px solid #dbe1e8;
+  color: #475569;
+}
+
+.update-action {
+  background: #2563eb;
+  border: none;
+  color: white;
+}
+
+.update-action:hover {
+  background: #1d4ed8;
+}
+
+@media (max-width: 768px) {
+
+  .president-details-page {
+    padding: 20px;
+  }
+
+  .details-title-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .resident-details-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .complaint-info-grid {
+    gap: 40px;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+  }
+
+  .cancel-action,
+  .update-action {
+    width: 100%;
+  }
+}

@@ -1,0 +1,84 @@
+- generic [ref=f4e3]:
+  - complementary [ref=f4e4]:
+    - generic [ref=f4e10]:
+      - generic [ref=f4e11]: SocietyConnect
+      - generic [ref=f4e12]: Greenview Residency
+    - generic [ref=f4e13]: ADMINISTRATION
+    - navigation [ref=f4e14]:
+      - button "Profile" [ref=f4e15] [cursor=pointer]
+    - generic [ref=f4e21]:
+      - generic [ref=f4e22]: SA
+      - generic [ref=f4e23]:
+        - strong [ref=f4e24]: Society Administrator
+        - generic [ref=f4e25]: Administrator
+    - button "Sign out" [ref=f4e26] [cursor=pointer]
+  - main [ref=f4e31]:
+    - generic [ref=f4e32]:
+      - button "Open navigation" [ref=f4e33] [cursor=pointer]
+      - generic [ref=f4e36]:
+        - button "Notifications" [ref=f4e38] [cursor=pointer]
+        - button "⌄" [ref=f4e42] [cursor=pointer]
+    - generic [ref=f4e48]:
+      - generic [ref=f4e50]:
+        - generic [ref=f4e51]: Account
+        - heading "Profile" [level=1] [ref=f4e52]
+        - paragraph [ref=f4e53]: Manage your personal information and account preferences.
+      - generic [ref=f4e54]:
+        - generic [ref=f4e55]:
+          - generic [ref=f4e56]:
+            - generic [ref=f4e57]: SA
+            - button "Choose File" [ref=f4e58]
+          - generic [ref=f4e59]:
+            - generic [ref=f4e60]: Administrator
+            - heading "Society Administrator" [level=2] [ref=f4e61]
+            - paragraph [ref=f4e62]: Greenview Residency
+            - generic [ref=f4e63]: Active account
+          - button "Edit profile" [ref=f4e65] [cursor=pointer]
+        - generic [ref=f4e69]:
+          - generic [ref=f4e71]:
+            - heading "Personal information" [level=2] [ref=f4e72]
+            - paragraph [ref=f4e73]: Keep your contact details up to date.
+          - generic [ref=f4e74]:
+            - generic [ref=f4e75]:
+              - generic [ref=f4e76]: Full name
+              - textbox "Full name" [disabled] [ref=f4e77]: Society Administrator
+            - generic [ref=f4e78]:
+              - generic [ref=f4e79]: Email address
+              - textbox "Email address" [disabled] [ref=f4e80]: admin@greenview.example.com
+            - generic [ref=f4e81]:
+              - generic [ref=f4e82]: Phone number
+              - textbox "Phone number" [disabled] [ref=f4e83]: +91 90000 10001
+            - generic [ref=f4e84]:
+              - generic [ref=f4e85]: Role
+              - textbox "Role" [disabled] [ref=f4e86]: Administrator
+        - generic [ref=f4e87]:
+          - generic [ref=f4e89]:
+            - heading "Society information" [level=2] [ref=f4e90]
+            - paragraph [ref=f4e91]: Your administration account context.
+          - generic [ref=f4e92]:
+            - generic [ref=f4e93]:
+              - generic [ref=f4e94]: Society
+              - strong [ref=f4e95]: Greenview Residency
+            - generic [ref=f4e96]:
+              - generic [ref=f4e97]: Address
+              - strong [ref=f4e98]: Greenview Residency, Raigarh
+            - generic [ref=f4e99]:
+              - generic [ref=f4e100]: Member since
+              - strong [ref=f4e101]: 12 Jan 2024
+        - generic [ref=f4e102]:
+          - generic [ref=f4e104]:
+            - heading "Preferences" [level=2] [ref=f4e105]
+            - paragraph [ref=f4e106]: Choose how SocietyConnect keeps you informed.
+          - generic [ref=f4e107]:
+            - generic [ref=f4e111]:
+              - strong [ref=f4e112]: Notifications
+              - generic [ref=f4e113]: Receive updates about complaints and society notices.
+            - checkbox "Notifications Receive updates about complaints and society notices." [checked] [disabled] [ref=f4e114]
+        - generic [ref=f4e115]:
+          - generic [ref=f4e117]:
+            - heading "Security" [level=2] [ref=f4e118]
+            - paragraph [ref=f4e119]: Protect access to your SocietyConnect account.
+          - button "Change password Use a strong password with at least 6 characters." [ref=f4e120] [cursor=pointer]:
+            - generic [ref=f4e125]:
+              - strong [ref=f4e126]: Change password
+              - generic [ref=f4e127]: Use a strong password with at least 6 characters.

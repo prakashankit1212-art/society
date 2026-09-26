@@ -1,0 +1,70 @@
+- generic [ref=f1e3]:
+  - complementary [ref=f1e4]:
+    - generic [ref=f1e10]:
+      - generic [ref=f1e11]: SocietyConnect
+      - generic [ref=f1e12]: Greenview Residency
+    - generic [ref=f1e13]: MANAGEMENT
+    - navigation [ref=f1e14]:
+      - link "Overview" [ref=f1e15] [cursor=pointer]:
+        - /url: /president/dashboard
+      - link "Complaints" [ref=f1e21] [cursor=pointer]:
+        - /url: /president/complaints
+      - link "Staff" [ref=f1e27] [cursor=pointer]:
+        - /url: /president/staff
+      - link "Residents" [ref=f1e32] [cursor=pointer]:
+        - /url: /president/residents
+      - link "Notices" [ref=f1e38] [cursor=pointer]:
+        - /url: /president/notices
+      - link "Analytics" [ref=f1e43] [cursor=pointer]:
+        - /url: /president/analytics
+      - button "Profile" [ref=f1e48] [cursor=pointer]
+    - generic [ref=f1e54]:
+      - generic [ref=f1e55]: SP
+      - generic [ref=f1e56]:
+        - strong [ref=f1e57]: Society President
+        - generic [ref=f1e58]: Society President
+    - button "Sign out" [ref=f1e59] [cursor=pointer]
+  - main [ref=f1e64]:
+    - generic [ref=f1e65]:
+      - textbox "Search" [ref=f1e70]:
+        - /placeholder: Search complaints, residents...
+      - generic [ref=f1e71]:
+        - button "Notifications" [ref=f1e73] [cursor=pointer]
+        - button "Greenview Residency" [ref=f1e78] [cursor=pointer]
+    - generic [ref=f1e85]:
+      - button "Back to society" [ref=f1e86] [cursor=pointer]
+      - generic [ref=f1e90]:
+        - generic [ref=f1e91]: Greenview Residency
+        - heading "Blocks" [level=1] [ref=f1e92]
+        - paragraph [ref=f1e93]: Resident and registered flat counts across the society.
+      - generic [ref=f1e94]:
+        - article [ref=f1e95]:
+          - generic [ref=f1e96]: Block
+          - heading "A" [level=2] [ref=f1e102]
+          - generic [ref=f1e103]:
+            - generic [ref=f1e104]:
+              - strong [ref=f1e105]: "2"
+              - generic [ref=f1e106]: Flats on record
+            - generic [ref=f1e107]:
+              - strong [ref=f1e108]: "2"
+              - generic [ref=f1e109]: Residents
+        - article [ref=f1e110]:
+          - generic [ref=f1e111]: Block
+          - heading "B" [level=2] [ref=f1e117]
+          - generic [ref=f1e118]:
+            - generic [ref=f1e119]:
+              - strong [ref=f1e120]: "2"
+              - generic [ref=f1e121]: Flats on record
+            - generic [ref=f1e122]:
+              - strong [ref=f1e123]: "2"
+              - generic [ref=f1e124]: Residents
+        - article [ref=f1e125]:
+          - generic [ref=f1e126]: Block
+          - heading "C" [level=2] [ref=f1e132]
+          - generic [ref=f1e133]:
+            - generic [ref=f1e134]:
+              - strong [ref=f1e135]: "3"
+              - generic [ref=f1e136]: Flats on record
+            - generic [ref=f1e137]:
+              - strong [ref=f1e138]: "3"
+              - generic [ref=f1e139]: Residents

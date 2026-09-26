@@ -1,0 +1,102 @@
+- generic [ref=f7e3]:
+  - complementary [ref=f7e4]:
+    - generic [ref=f7e10]:
+      - generic [ref=f7e11]: SocietyConnect
+      - generic [ref=f7e12]: Greenview Residency
+    - generic [ref=f7e13]: HOME
+    - navigation [ref=f7e14]:
+      - link "Overview" [ref=f7e15] [cursor=pointer]:
+        - /url: /resident/dashboard
+      - link "My Complaints" [ref=f7e21] [cursor=pointer]:
+        - /url: /resident/complaints
+      - link "Feedback" [ref=f7e27] [cursor=pointer]:
+        - /url: /resident/feedback
+      - button "Profile" [ref=f7e31] [cursor=pointer]
+    - generic [ref=f7e37]:
+      - generic [ref=f7e38]: AS
+      - generic [ref=f7e39]:
+        - strong [ref=f7e40]: Archana Sharma
+        - generic [ref=f7e41]: Block B • Flat 204
+    - button "Sign out" [ref=f7e42] [cursor=pointer]
+  - main [ref=f7e47]:
+    - generic [ref=f7e48]:
+      - button "Open navigation" [ref=f7e49] [cursor=pointer]
+      - generic [ref=f7e52]:
+        - button "Notifications" [ref=f7e54] [cursor=pointer]
+        - 'button "Current society: Greenview Residency" [ref=f7e59] [cursor=pointer]'
+    - generic [ref=f7e65]:
+      - button "Back to complaints" [ref=f7e66] [cursor=pointer]
+      - generic [ref=f7e70]:
+        - generic [ref=f7e71]: Resident service
+        - heading "Report an issue" [level=1] [ref=f7e72]
+        - paragraph [ref=f7e73]: Tell us what's wrong and we'll route it to the right society team.
+      - generic [ref=f7e74]:
+        - generic [ref=f7e75]:
+          - generic [ref=f7e76]:
+            - generic [ref=f7e77]: "01"
+            - strong [ref=f7e78]: Issue details
+          - generic [ref=f7e79]:
+            - generic [ref=f7e80]: "02"
+            - strong [ref=f7e81]: Priority
+          - generic [ref=f7e82]:
+            - generic [ref=f7e83]: "03"
+            - strong [ref=f7e84]: Description
+          - generic [ref=f7e85]:
+            - generic [ref=f7e86]: "04"
+            - strong [ref=f7e87]: Evidence
+        - generic [ref=f7e88]:
+          - generic [ref=f7e89]:
+            - heading "01 · Issue details" [level=2] [ref=f7e90]
+            - paragraph [ref=f7e91]: Give the management team enough context to identify the request.
+            - generic [ref=f7e92]:
+              - generic [ref=f7e93]: What is the issue?
+              - textbox "e.g. Water leakage in Block B" [ref=f7e94]
+            - generic [ref=f7e95]:
+              - generic [ref=f7e96]:
+                - generic [ref=f7e97]: Category
+                - combobox [ref=f7e98]:
+                  - option "Maintenance" [selected]
+                  - option "Electricity"
+                  - option "Security"
+                  - option "Cleanliness"
+                  - option "Parking"
+              - generic [ref=f7e99]:
+                - generic [ref=f7e100]: Block
+                - combobox [ref=f7e101]:
+                  - option "B" [selected]
+                  - option "A"
+                  - option "C"
+              - generic [ref=f7e102]:
+                - generic [ref=f7e103]: Flat
+                - combobox [ref=f7e104]:
+                  - option "204" [selected]
+                  - option "102"
+                  - option "305"
+          - generic [ref=f7e105]:
+            - heading "02 · Priority" [level=2] [ref=f7e106]
+            - paragraph [ref=f7e107]: Choose how quickly you think the issue needs attention.
+            - generic [ref=f7e109]:
+              - generic [ref=f7e110] [cursor=pointer]:
+                - strong [ref=f7e111]: Low
+                - generic [ref=f7e112]: Can wait
+              - generic [ref=f7e113] [cursor=pointer]:
+                - strong [ref=f7e114]: Medium
+                - generic [ref=f7e115]: Needs attention
+              - generic [ref=f7e116] [cursor=pointer]:
+                - strong [ref=f7e117]: High
+                - generic [ref=f7e118]: Requires urgent action
+          - generic [ref=f7e119]:
+            - heading "03 · Description" [level=2] [ref=f7e120]
+            - paragraph [ref=f7e121]: Add details that can help the team understand what happened and where.
+            - generic [ref=f7e122]:
+              - generic [ref=f7e123]: Description
+              - textbox "Tell us what happened..." [ref=f7e124]
+          - generic [ref=f7e125]:
+            - heading "04 · Add photos or documents" [level=2] [ref=f7e126]
+            - paragraph [ref=f7e127]: Add up to 5 images or PDF files to help the team understand the issue.
+            - button "Upload evidence JPG, PNG or PDF · max 5 files" [ref=f7e128] [cursor=pointer]:
+              - strong [ref=f7e132]: Upload evidence
+              - generic [ref=f7e133]: JPG, PNG or PDF · max 5 files
+            - generic [ref=f7e134]:
+              - button "Cancel" [ref=f7e135] [cursor=pointer]
+              - button "Submit report" [ref=f7e136] [cursor=pointer]

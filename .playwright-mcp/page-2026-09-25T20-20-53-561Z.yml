@@ -1,0 +1,82 @@
+- generic [ref=f12e3]:
+  - complementary [ref=f12e4]:
+    - generic [ref=f12e10]:
+      - generic [ref=f12e11]: SocietyConnect
+      - generic [ref=f12e12]: Greenview Residency
+    - generic [ref=f12e13]: HOME
+    - navigation [ref=f12e14]:
+      - link "Overview" [ref=f12e15] [cursor=pointer]:
+        - /url: /resident/dashboard
+      - link "My Complaints" [ref=f12e21] [cursor=pointer]:
+        - /url: /resident/complaints
+      - link "Feedback" [ref=f12e27] [cursor=pointer]:
+        - /url: /resident/feedback
+      - button "Profile" [ref=f12e31] [cursor=pointer]
+    - generic [ref=f12e37]:
+      - generic [ref=f12e38]: AS
+      - generic [ref=f12e39]:
+        - strong [ref=f12e40]: Archana Sharma
+        - generic [ref=f12e41]: Block B • Flat 204
+    - button "Sign out" [ref=f12e42] [cursor=pointer]
+  - main [ref=f12e47]:
+    - generic [ref=f12e48]:
+      - button "Open navigation" [ref=f12e49] [cursor=pointer]
+      - generic [ref=f12e52]:
+        - button "Notifications" [ref=f12e54] [cursor=pointer]
+        - 'button "Current society: Greenview Residency" [ref=f12e59] [cursor=pointer]'
+    - generic [ref=f12e65]:
+      - generic [ref=f12e66]:
+        - generic [ref=f12e67]:
+          - button "Back to dashboard" [ref=f12e68] [cursor=pointer]
+          - generic [ref=f12e71]: My activity
+          - heading "My complaints" [level=1] [ref=f12e72]
+          - paragraph [ref=f12e73]: View and track every request you've raised with society management.
+        - button "New complaint" [ref=f12e74] [cursor=pointer]
+      - generic [ref=f12e77]:
+        - generic [ref=f12e78]:
+          - generic [ref=f12e79]: Total complaints
+          - strong [ref=f12e80]: "04"
+        - generic [ref=f12e81]:
+          - generic [ref=f12e82]: In progress
+          - strong [ref=f12e83]: "01"
+        - generic [ref=f12e84]:
+          - generic [ref=f12e85]: Resolved
+          - strong [ref=f12e86]: "02"
+      - generic [ref=f12e87]:
+        - generic [ref=f12e89]:
+          - heading "Complaint history" [level=2] [ref=f12e90]
+          - paragraph [ref=f12e91]: 4 shown
+        - generic [ref=f12e92]:
+          - textbox [ref=f12e97]:
+            - /placeholder: Search by complaint, category or ID...
+          - combobox [ref=f12e98]:
+            - option "All Status" [selected]
+            - option "Under Review"
+            - option "In Progress"
+            - option "Resolved"
+          - combobox [ref=f12e99]:
+            - option "All Categories" [selected]
+            - option "Maintenance"
+            - option "Electricity"
+            - option "Cleanliness"
+        - generic [ref=f12e100]:
+          - generic [ref=f12e101] [cursor=pointer]:
+            - generic [ref=f12e102]:
+              - generic [ref=f12e103]: Water leakage in Block B
+              - generic [ref=f12e104]: CMP001 · Maintenance · 10 Aug 2026
+            - generic [ref=f12e105]: In Progress
+          - generic [ref=f12e109] [cursor=pointer]:
+            - generic [ref=f12e110]:
+              - generic [ref=f12e111]: Parking area lights
+              - generic [ref=f12e112]: CMP002 · Electricity · 08 Aug 2026
+            - generic [ref=f12e113]: Resolved
+          - generic [ref=f12e117] [cursor=pointer]:
+            - generic [ref=f12e118]:
+              - generic [ref=f12e119]: Lift not working properly
+              - generic [ref=f12e120]: CMP003 · Maintenance · 06 Aug 2026
+            - generic [ref=f12e121]: Under Review
+          - generic [ref=f12e125] [cursor=pointer]:
+            - generic [ref=f12e126]:
+              - generic [ref=f12e127]: Cleaning required near Block A
+              - generic [ref=f12e128]: CMP004 · Cleanliness · 04 Aug 2026
+            - generic [ref=f12e129]: Resolved

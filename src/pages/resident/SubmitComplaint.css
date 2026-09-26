@@ -1,0 +1,113 @@
+.complaint-page {
+  min-height: 100vh;
+  background: #f6f8fb;
+  padding: 40px;
+}
+
+.complaint-container {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.complaint-header {
+  margin-bottom: 25px;
+}
+
+.back-button {
+  border: none;
+  background: transparent;
+  color: #2563eb;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.complaint-header h1 {
+  margin: 0 0 8px;
+  color: #1e293b;
+  font-size: 30px;
+}
+
+.complaint-header p {
+  margin: 0;
+  color: #64748b;
+}
+
+.complaint-form {
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+}
+
+.form-field {
+  margin-bottom: 22px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 8px;
+  color: #334155;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #dbe1e8;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+.form-field textarea {
+  resize: vertical;
+}
+
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus {
+  border-color: #2563eb;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.cancel-button,
+.submit-button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background: white;
+  border: 1px solid #dbe1e8;
+  color: #475569;
+}
+
+.submit-button {
+  background: #2563eb;
+  border: none;
+  color: white;
+}
+
+.submit-button:hover {
+  background: #1d4ed8;
+}

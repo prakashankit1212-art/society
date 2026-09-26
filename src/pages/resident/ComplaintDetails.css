@@ -1,0 +1,256 @@
+.details-page {
+  min-height: 100vh;
+  background: #f6f8fb;
+  padding: 40px;
+}
+
+.details-header {
+  max-width: 1000px;
+  margin: 0 auto 25px;
+}
+
+.back-button {
+  border: none;
+  background: transparent;
+  color: #2563eb;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content h1 {
+  margin: 0 0 8px;
+  color: #1e293b;
+  font-size: 28px;
+}
+
+.header-content p {
+  margin: 0;
+  color: #64748b;
+}
+
+.details-status {
+  padding: 8px 15px;
+  border-radius: 20px;
+  background: #fff7ed;
+  color: #ea580c;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+
+/* Main Content */
+
+.details-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+/* Cards */
+
+.details-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.details-card h2 {
+  margin: 0 0 20px;
+  color: #1e293b;
+  font-size: 19px;
+}
+
+
+/* Information */
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.info-grid span {
+  display: block;
+  color: #64748b;
+  font-size: 13px;
+  margin-bottom: 7px;
+}
+
+.info-grid strong {
+  color: #334155;
+  font-size: 14px;
+}
+
+
+/* Description */
+
+.description {
+  color: #475569;
+  line-height: 1.7;
+  margin: 0;
+}
+
+
+/* Timeline */
+
+.timeline {
+  position: relative;
+  padding-left: 15px;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 18px;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.timeline-item:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 12px;
+  height: calc(100% - 5px);
+  width: 2px;
+  background: #e2e8f0;
+}
+
+.timeline-dot {
+  width: 12px;
+  height: 12px;
+  background: #cbd5e1;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 4px;
+  z-index: 1;
+}
+
+.timeline-item.completed .timeline-dot {
+  background: #22c55e;
+}
+
+.timeline-item.current .timeline-dot {
+  background: #2563eb;
+}
+
+.timeline-item h3 {
+  margin: 0 0 5px;
+  color: #334155;
+  font-size: 15px;
+}
+
+.timeline-item p {
+  margin: 0 0 5px;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.timeline-item span {
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+
+/* President Response */
+
+.response-box {
+  background: #f8fafc;
+  border-left: 4px solid #2563eb;
+  padding: 18px;
+  border-radius: 6px;
+}
+
+.response-box strong {
+  display: block;
+  color: #334155;
+  margin-bottom: 8px;
+}
+
+.response-box p {
+  color: #475569;
+  line-height: 1.6;
+  margin: 0 0 8px;
+}
+
+.response-box span {
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+
+/* Bottom Buttons */
+
+.bottom-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.secondary-button,
+.primary-button {
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.secondary-button {
+  background: white;
+  border: 1px solid #dbe1e8;
+  color: #475569;
+}
+
+.primary-button {
+  background: #2563eb;
+  border: none;
+  color: white;
+}
+
+.primary-button:hover {
+  background: #1d4ed8;
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+  .details-page {
+    padding: 20px;
+  }
+
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .bottom-actions {
+    flex-direction: column;
+  }
+
+  .secondary-button,
+  .primary-button {
+    width: 100%;
+  }
+
+}

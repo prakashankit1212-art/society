@@ -1,0 +1,63 @@
+- generic [ref=f2e400]:
+  - complementary [ref=f2e401]:
+    - generic [ref=f2e407]:
+      - generic [ref=f2e408]: SocietyConnect
+      - generic [ref=f2e409]: Greenview Residency
+    - generic [ref=f2e410]: HOME
+    - navigation [ref=f2e411]:
+      - link "Overview" [ref=f2e412] [cursor=pointer]:
+        - /url: /resident/dashboard
+      - link "My Complaints" [ref=f2e418] [cursor=pointer]:
+        - /url: /resident/complaints
+      - link "Feedback" [ref=f2e424] [cursor=pointer]:
+        - /url: /resident/feedback
+      - button "Profile" [ref=f2e428] [cursor=pointer]
+    - generic [ref=f2e434]:
+      - generic [ref=f2e435]: AS
+      - generic [ref=f2e436]:
+        - strong [ref=f2e437]: Archana Sharma
+        - generic [ref=f2e438]: Block B • Flat 204
+    - button "Sign out" [ref=f2e439] [cursor=pointer]
+  - main [ref=f2e444]:
+    - generic [ref=f2e445]:
+      - button "Open navigation" [ref=f2e446] [cursor=pointer]
+      - generic [ref=f2e449]:
+        - button "Notifications" [ref=f2e451] [cursor=pointer]
+        - 'button "Current society: Greenview Residency" [ref=f2e456] [cursor=pointer]'
+    - generic [ref=f2e462]:
+      - button "Back to society" [ref=f2e463] [cursor=pointer]
+      - generic [ref=f2e467]:
+        - generic [ref=f2e468]: Greenview Residency
+        - heading "Blocks" [level=1] [ref=f2e469]
+        - paragraph [ref=f2e470]: Resident and registered flat counts across the society.
+      - generic [ref=f2e471]:
+        - article [ref=f2e472]:
+          - generic [ref=f2e473]: Block
+          - heading "A" [level=2] [ref=f2e479]
+          - generic [ref=f2e480]:
+            - generic [ref=f2e481]:
+              - strong [ref=f2e482]: "2"
+              - generic [ref=f2e483]: Flats on record
+            - generic [ref=f2e484]:
+              - strong [ref=f2e485]: "2"
+              - generic [ref=f2e486]: Residents
+        - article [ref=f2e487]:
+          - generic [ref=f2e488]: Block
+          - heading "B" [level=2] [ref=f2e494]
+          - generic [ref=f2e495]:
+            - generic [ref=f2e496]:
+              - strong [ref=f2e497]: "2"
+              - generic [ref=f2e498]: Flats on record
+            - generic [ref=f2e499]:
+              - strong [ref=f2e500]: "2"
+              - generic [ref=f2e501]: Residents
+        - article [ref=f2e502]:
+          - generic [ref=f2e503]: Block
+          - heading "C" [level=2] [ref=f2e509]
+          - generic [ref=f2e510]:
+            - generic [ref=f2e511]:
+              - strong [ref=f2e512]: "3"
+              - generic [ref=f2e513]: Flats on record
+            - generic [ref=f2e514]:
+              - strong [ref=f2e515]: "3"
+              - generic [ref=f2e516]: Residents

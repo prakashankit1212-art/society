@@ -1,0 +1,58 @@
+- main [ref=f2e3]:
+  - generic [ref=f2e4]:
+    - img "Green residential community" [ref=f2e5]
+    - generic [ref=f2e6]:
+      - link "SocietyConnect home" [ref=f2e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f2e11]: SocietyConnect
+      - generic [ref=f2e12]:
+        - text: GREENVIEW RESIDENCY
+        - heading "A better community starts here." [level=1] [ref=f2e13]:
+          - text: A better
+          - generic [ref=f2e14]: community
+          - text: starts here.
+        - paragraph [ref=f2e15]: Manage complaints, stay informed and build a stronger, happier society.
+        - generic "SocietyConnect services" [ref=f2e16]:
+          - article [ref=f2e17]:
+            - strong [ref=f2e22]: Complaints
+            - generic [ref=f2e23]: Raise and trackissues easily
+          - article [ref=f2e24]:
+            - strong [ref=f2e30]: Notices
+            - generic [ref=f2e31]: Stay updatedwith society news
+          - article [ref=f2e32]:
+            - strong [ref=f2e38]: Community
+            - generic [ref=f2e39]: A more connectedneighbourhood
+      - generic [ref=f2e44]:
+        - strong [ref=f2e45]: Greenview Residency
+        - generic [ref=f2e46]: Raigarh, Chhattisgarh
+  - generic [ref=f2e47]:
+    - 'button "Current society: Greenview Residency" [ref=f2e49] [cursor=pointer]':
+      - generic [ref=f2e53]: Greenview Residency
+    - generic [ref=f2e56]:
+      - generic [ref=f2e57]:
+        - generic [ref=f2e58]: Welcome back
+        - heading "Sign in to your society account" [level=2] [ref=f2e59]: Sign in to yoursociety account
+        - paragraph [ref=f2e60]: Access your dashboard, raise complaints, view notices and stay connected with your community.
+      - generic [ref=f2e61]:
+        - generic [ref=f2e62]:
+          - generic [ref=f2e63]: Email address
+          - textbox "Email address" [ref=f2e68]:
+            - /placeholder: name@example.com
+        - generic [ref=f2e69]:
+          - generic [ref=f2e70]: Password
+          - generic [ref=f2e71]:
+            - textbox "Password" [ref=f2e75]:
+              - /placeholder: Enter your password
+            - button "Show password" [ref=f2e76] [cursor=pointer]
+          - button "Forgot password?" [ref=f2e80] [cursor=pointer]
+        - group "Continue as" [ref=f2e81]:
+          - generic [ref=f2e83]:
+            - button "Resident" [pressed] [ref=f2e84] [cursor=pointer]
+            - button "Society President" [ref=f2e90] [cursor=pointer]
+            - button "Admin" [ref=f2e95] [cursor=pointer]
+        - button "Sign in" [ref=f2e100] [cursor=pointer]
+      - generic [ref=f2e103]: or
+      - button "Continue with Google" [ref=f2e105] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f2e106]: G
+        - text: Continue with Google
+      - paragraph [ref=f2e107]: Secure access to your society portal.

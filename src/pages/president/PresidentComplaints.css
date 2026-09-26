@@ -1,0 +1,268 @@
+.president-complaints-page {
+  min-height: 100vh;
+  background: #f6f8fb;
+  padding: 40px;
+}
+
+
+/* Header */
+
+.president-complaints-header {
+  max-width: 1100px;
+  margin: 0 auto 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.back-button {
+  border: none;
+  background: transparent;
+  color: #2563eb;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+  margin-bottom: 18px;
+}
+
+.president-complaints-header h1 {
+  margin: 0 0 8px;
+  color: #1e293b;
+  font-size: 30px;
+}
+
+.president-complaints-header p {
+  margin: 0;
+  color: #64748b;
+}
+
+.complaint-count {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 14px 20px;
+  text-align: center;
+}
+
+.complaint-count strong {
+  display: block;
+  font-size: 24px;
+  color: #2563eb;
+}
+
+.complaint-count span {
+  color: #64748b;
+  font-size: 12px;
+}
+
+
+/* Filters */
+
+.complaint-filters {
+  max-width: 1100px;
+  margin: 0 auto 20px;
+  background: white;
+  padding: 18px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 12px;
+}
+
+.complaint-filters input,
+.complaint-filters select {
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid #dbe1e8;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  background: white;
+}
+
+.complaint-filters input:focus,
+.complaint-filters select:focus {
+  border-color: #2563eb;
+}
+
+
+/* Complaint List */
+
+.president-complaints-list {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.president-complaint-card {
+  padding: 22px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.president-complaint-card:last-child {
+  border-bottom: none;
+}
+
+
+/* Complaint Main */
+
+.president-complaint-main {
+  min-width: 0;
+}
+
+.complaint-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.complaint-title h2 {
+  margin: 0;
+  color: #334155;
+  font-size: 16px;
+}
+
+.complaint-title span {
+  background: #f8fafc;
+  color: #64748b;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 11px;
+}
+
+.resident-name {
+  margin: 7px 0;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.complaint-details {
+  display: flex;
+  gap: 18px;
+}
+
+.complaint-details span {
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+
+/* Actions */
+
+.president-complaint-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 20px;
+}
+
+.priority,
+.complaint-status {
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+
+/* Priority */
+
+.priority.high {
+  background: #fef2f2;
+  color: #dc2626;
+}
+
+.priority.medium {
+  background: #fff7ed;
+  color: #ea580c;
+}
+
+.priority.low {
+  background: #f0fdf4;
+  color: #16a34a;
+}
+
+
+/* Status */
+
+.status-pending {
+  background: #fff7ed;
+  color: #ea580c;
+}
+
+.status-progress {
+  background: #eff6ff;
+  color: #2563eb;
+}
+
+.status-resolved {
+  background: #f0fdf4;
+  color: #16a34a;
+}
+
+
+/* Review */
+
+.review-button {
+  border: none;
+  background: #2563eb;
+  color: white;
+  padding: 9px 15px;
+  border-radius: 7px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.review-button:hover {
+  background: #1d4ed8;
+}
+
+
+/* Responsive */
+
+@media (max-width: 900px) {
+
+  .complaint-filters {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .president-complaint-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .president-complaint-actions {
+    margin-left: 0;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .president-complaints-page {
+    padding: 20px;
+  }
+
+  .president-complaints-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .complaint-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .president-complaint-actions {
+    flex-wrap: wrap;
+  }
+
+}

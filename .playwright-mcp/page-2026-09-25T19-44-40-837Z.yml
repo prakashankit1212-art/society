@@ -1,0 +1,100 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e10]:
+      - generic [ref=e11]: SocietyConnect
+      - generic [ref=e12]: Greenview Residency
+    - generic [ref=e13]: MANAGEMENT
+    - navigation [ref=e14]:
+      - link "Overview" [ref=e15] [cursor=pointer]:
+        - /url: /president/dashboard
+      - link "Complaints" [ref=e21] [cursor=pointer]:
+        - /url: /president/complaints
+      - link "Staff" [ref=e27] [cursor=pointer]:
+        - /url: /president/staff
+      - link "Residents" [ref=e32] [cursor=pointer]:
+        - /url: /president/residents
+      - link "Notices" [ref=e38] [cursor=pointer]:
+        - /url: /president/notices
+      - link "Analytics" [ref=e43] [cursor=pointer]:
+        - /url: /president/analytics
+      - button "Profile" [ref=e48] [cursor=pointer]
+    - generic [ref=e54]:
+      - generic [ref=e55]: SP
+      - generic [ref=e56]:
+        - strong [ref=e57]: Society President
+        - generic [ref=e58]: Society President
+    - button "Sign out" [ref=e59] [cursor=pointer]
+  - main [ref=e64]:
+    - generic [ref=e65]:
+      - textbox "Search" [ref=e70]:
+        - /placeholder: Search complaints, residents...
+      - generic [ref=e71]:
+        - button "Notifications" [ref=e73] [cursor=pointer]
+        - button "Greenview Residency ⌄" [ref=e77] [cursor=pointer]:
+          - generic [ref=e81]: Greenview Residency
+          - generic [ref=e82]: ⌄
+    - generic [ref=e84]:
+      - button "Back to dashboard" [ref=e85] [cursor=pointer]
+      - generic [ref=e89]:
+        - generic [ref=e90]: Account
+        - heading "Profile" [level=1] [ref=e91]
+        - paragraph [ref=e92]: Manage your personal information and account preferences.
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - generic [ref=e96]: SP
+            - button "Choose File" [ref=e97]
+          - generic [ref=e98]:
+            - generic [ref=e99]: Society President
+            - heading "Society President" [level=2] [ref=e100]
+            - paragraph [ref=e101]: Greenview Residency
+            - generic [ref=e102]: Active account
+          - button "Edit profile" [ref=e104] [cursor=pointer]
+        - generic [ref=e108]:
+          - generic [ref=e110]:
+            - heading "Personal information" [level=2] [ref=e111]
+            - paragraph [ref=e112]: Keep your contact details up to date.
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - generic [ref=e115]: Full name
+              - textbox "Full name" [disabled] [ref=e116]: Society President
+            - generic [ref=e117]:
+              - generic [ref=e118]: Email address
+              - textbox "Email address" [disabled] [ref=e119]: president@greenview.example.com
+            - generic [ref=e120]:
+              - generic [ref=e121]: Phone number
+              - textbox "Phone number" [disabled] [ref=e122]: +91 90000 10000
+            - generic [ref=e123]:
+              - generic [ref=e124]: Role
+              - textbox "Role" [disabled] [ref=e125]: President
+        - generic [ref=e126]:
+          - generic [ref=e128]:
+            - heading "Society information" [level=2] [ref=e129]
+            - paragraph [ref=e130]: Your society leadership account context.
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - generic [ref=e133]: Society
+              - strong [ref=e134]: Greenview Residency
+            - generic [ref=e135]:
+              - generic [ref=e136]: Address
+              - strong [ref=e137]: Greenview Residency, Raigarh
+            - generic [ref=e138]:
+              - generic [ref=e139]: Member since
+              - strong [ref=e140]: 12 Jan 2024
+        - generic [ref=e141]:
+          - generic [ref=e143]:
+            - heading "Preferences" [level=2] [ref=e144]
+            - paragraph [ref=e145]: Choose how SocietyConnect keeps you informed.
+          - generic [ref=e146]:
+            - generic [ref=e150]:
+              - strong [ref=e151]: Notifications
+              - generic [ref=e152]: Receive updates about complaints and society notices.
+            - checkbox "Notifications Receive updates about complaints and society notices." [checked] [disabled] [ref=e153]
+        - generic [ref=e154]:
+          - generic [ref=e156]:
+            - heading "Security" [level=2] [ref=e157]
+            - paragraph [ref=e158]: Protect access to your SocietyConnect account.
+          - button "Change password Use a strong password with at least 6 characters." [ref=e159] [cursor=pointer]:
+            - generic [ref=e164]:
+              - strong [ref=e165]: Change password
+              - generic [ref=e166]: Use a strong password with at least 6 characters.

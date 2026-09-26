@@ -1,0 +1,111 @@
+- generic [ref=e113]:
+  - complementary [ref=e114]:
+    - generic [ref=e120]:
+      - generic [ref=e121]: SocietyConnect
+      - generic [ref=e122]: Greenview Residency
+    - generic [ref=e123]: MANAGEMENT
+    - navigation [ref=e124]:
+      - link "Overview" [ref=e125] [cursor=pointer]:
+        - /url: /president/dashboard
+      - link "Complaints" [ref=e131] [cursor=pointer]:
+        - /url: /president/complaints
+      - link "Staff" [ref=e137] [cursor=pointer]:
+        - /url: /president/staff
+      - link "Residents" [ref=e142] [cursor=pointer]:
+        - /url: /president/residents
+      - link "Notices" [ref=e148] [cursor=pointer]:
+        - /url: /president/notices
+      - link "Analytics" [ref=e153] [cursor=pointer]:
+        - /url: /president/analytics
+      - button "Profile" [ref=e158] [cursor=pointer]
+    - generic [ref=e164]:
+      - generic [ref=e165]: SP
+      - generic [ref=e166]:
+        - strong [ref=e167]: Society President
+        - generic [ref=e168]: Society President
+    - button "Sign out" [ref=e169] [cursor=pointer]
+  - main [ref=e174]:
+    - generic [ref=e175]:
+      - textbox "Search" [ref=e180]:
+        - /placeholder: Search complaints, residents...
+      - generic [ref=e181]:
+        - button "Notifications" [ref=e183] [cursor=pointer]
+        - 'button "Current society: Greenview Residency" [ref=e188] [cursor=pointer]':
+          - generic [ref=e192]: Greenview Residency
+    - generic [ref=e195]:
+      - generic [ref=e196]:
+        - generic [ref=e197]:
+          - generic [ref=e198]: Tuesday, 25 September 2026
+          - heading "Good morning, President" [level=1] [ref=e199]
+          - paragraph [ref=e200]: Here’s what needs your attention across the society.
+        - generic [ref=e201]:
+          - generic [ref=e202]: P
+          - generic [ref=e203]:
+            - strong [ref=e204]: Society President
+            - generic [ref=e205]: Greenview Residency
+      - generic [ref=e206]:
+        - generic [ref=e212]:
+          - heading "1 complaints need your attention" [level=2] [ref=e213]
+          - paragraph [ref=e214]: Review resident requests and assign work to the right team.
+        - button "Review now" [ref=e215] [cursor=pointer]
+      - generic [ref=e218]:
+        - generic [ref=e219]:
+          - generic [ref=e220]: Total complaints
+          - generic [ref=e227]: "4"
+          - generic [ref=e228]: All submitted requests
+        - generic [ref=e229]:
+          - generic [ref=e230]: Pending review
+          - generic [ref=e236]: "01"
+          - generic [ref=e237]: Need your attention
+        - generic [ref=e238]:
+          - generic [ref=e239]: In progress
+          - generic [ref=e244]: "01"
+          - generic [ref=e245]: Currently being handled
+        - generic [ref=e246]:
+          - generic [ref=e247]: Resolved
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]: Successfully closed
+      - generic [ref=e254]:
+        - button "Staff management 3 active members" [ref=e255] [cursor=pointer]:
+          - generic [ref=e260]:
+            - strong [ref=e261]: Staff management
+            - generic [ref=e262]: 3 active members
+        - button "Residents 7 registered residents" [ref=e265] [cursor=pointer]:
+          - generic [ref=e271]:
+            - strong [ref=e272]: Residents
+            - generic [ref=e273]: 7 registered residents
+        - button "Notices 3 published updates" [ref=e276] [cursor=pointer]:
+          - generic [ref=e281]:
+            - strong [ref=e282]: Notices
+            - generic [ref=e283]: 3 published updates
+        - button "Analytics Track society performance" [ref=e286] [cursor=pointer]:
+          - generic [ref=e291]:
+            - strong [ref=e292]: Analytics
+            - generic [ref=e293]: Track society performance
+      - generic [ref=e296]:
+        - generic [ref=e297]:
+          - generic [ref=e298]:
+            - heading "Recent complaints" [level=2] [ref=e299]
+            - paragraph [ref=e300]: Latest requests submitted by residents
+          - button "View all" [ref=e301] [cursor=pointer]
+        - generic [ref=e302]:
+          - generic [ref=e303] [cursor=pointer]:
+            - generic [ref=e304]:
+              - generic [ref=e305]: Water leakage in Block B
+              - generic [ref=e306]: Archana · Block B, Flat 204 · Maintenance
+            - generic [ref=e307]: In Progress
+          - generic [ref=e311] [cursor=pointer]:
+            - generic [ref=e312]:
+              - generic [ref=e313]: Parking area lights
+              - generic [ref=e314]: Rahul · Block A, Flat 102 · Electricity
+            - generic [ref=e315]: Resolved
+          - generic [ref=e319] [cursor=pointer]:
+            - generic [ref=e320]:
+              - generic [ref=e321]: Lift not working properly
+              - generic [ref=e322]: Archana · Block B, Flat 204 · Maintenance
+            - generic [ref=e323]: Under Review
+          - generic [ref=e327] [cursor=pointer]:
+            - generic [ref=e328]:
+              - generic [ref=e329]: Cleaning required near Block A
+              - generic [ref=e330]: Rahul · Block A, Flat 102 · Cleanliness
+            - generic [ref=e331]: Resolved

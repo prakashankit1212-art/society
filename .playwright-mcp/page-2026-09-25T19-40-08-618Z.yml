@@ -1,0 +1,26 @@
+- main [ref=f1e3]:
+  - generic [ref=f1e6]:
+    - generic [ref=f1e7]: SocietyConnect
+    - generic [ref=f1e11]:
+      - text: GREENVIEW RESIDENCY
+      - heading "A better community starts with better communication." [level=1] [ref=f1e12]
+  - generic [ref=f1e15]:
+    - generic [ref=f1e16]:
+      - text: Welcome back
+      - heading "Manage your society simply." [level=2] [ref=f1e17]
+      - paragraph [ref=f1e18]: Sign in to submit issues, follow updates, and stay connected with your community.
+    - generic [ref=f1e19]:
+      - generic [ref=f1e20]:
+        - generic [ref=f1e21]: Email address
+        - textbox "archana@email.com" [ref=f1e22]
+      - generic [ref=f1e23]:
+        - generic [ref=f1e24]: Password
+        - textbox "••••••••••" [ref=f1e25]
+      - generic [ref=f1e26]:
+        - generic [ref=f1e27]: Sign in as
+        - combobox [ref=f1e28]:
+          - option "Resident" [selected]
+          - option "Society President"
+          - option "Admin"
+      - button "Sign in" [ref=f1e29] [cursor=pointer]
+    - paragraph [ref=f1e32]: Society management made calmer, clearer, and easier.

@@ -1,0 +1,132 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e10]:
+      - generic [ref=e11]: SocietyConnect
+      - generic [ref=e12]: Greenview Residency
+    - generic [ref=e13]: MANAGEMENT
+    - navigation [ref=e14]:
+      - link "Overview" [ref=e15] [cursor=pointer]:
+        - /url: /president/dashboard
+      - link "Complaints" [ref=e21] [cursor=pointer]:
+        - /url: /president/complaints
+      - link "Staff" [ref=e27] [cursor=pointer]:
+        - /url: /president/staff
+      - link "Residents" [ref=e32] [cursor=pointer]:
+        - /url: /president/residents
+      - link "Notices" [ref=e38] [cursor=pointer]:
+        - /url: /president/notices
+      - link "Analytics" [ref=e43] [cursor=pointer]:
+        - /url: /president/analytics
+      - button "Profile" [ref=e48] [cursor=pointer]
+    - generic [ref=e54]:
+      - generic [ref=e55]: SP
+      - generic [ref=e56]:
+        - strong [ref=e57]: Society President
+        - generic [ref=e58]: Society President
+    - button "Sign out" [ref=e59] [cursor=pointer]
+  - main [ref=e64]:
+    - generic [ref=e65]:
+      - textbox "Search" [ref=e70]:
+        - /placeholder: Search complaints, residents...
+      - generic [ref=e71]:
+        - button "Install app" [ref=e225] [cursor=pointer]
+        - button "Notifications" [ref=e73] [cursor=pointer]
+        - generic [ref=e77]:
+          - button "Greenview Residency" [expanded] [active] [ref=e78] [cursor=pointer]
+          - menu "Current society" [ref=e255]:
+            - generic [ref=e256]: CURRENT SOCIETY
+            - generic [ref=e257]:
+              - strong [ref=e258]: Greenview Residency
+              - generic [ref=e259]: Raigarh, Chhattisgarh
+            - generic [ref=e260]:
+              - generic [ref=e261]:
+                - strong [ref=e262]: "3"
+                - generic [ref=e263]: Blocks
+              - generic [ref=e264]:
+                - strong [ref=e265]: "7"
+                - generic [ref=e266]: Residents
+              - generic [ref=e267]:
+                - strong [ref=e268]: "4"
+                - generic [ref=e269]: Staff
+            - generic [ref=e270]:
+              - menuitem "View society details" [ref=e271] [cursor=pointer]
+              - menuitem "Blocks" [ref=e274] [cursor=pointer]
+              - menuitem "Society settings" [ref=e277] [cursor=pointer]
+            - button "Switch society" [disabled] [ref=e281]
+    - generic [ref=e85]:
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - generic [ref=e88]: Tuesday, 25 September 2026
+          - heading "Good morning, President" [level=1] [ref=e89]
+          - paragraph [ref=e90]: Here’s what needs your attention across the society.
+        - generic [ref=e91]:
+          - generic [ref=e92]: P
+          - generic [ref=e93]:
+            - strong [ref=e94]: Society President
+            - generic [ref=e95]: Greenview Residency
+      - generic [ref=e96]:
+        - generic [ref=e102]:
+          - heading "1 complaints need your attention" [level=2] [ref=e103]
+          - paragraph [ref=e104]: Review resident requests and assign work to the right team.
+        - button "Review now" [ref=e105] [cursor=pointer]
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - generic [ref=e110]: Total complaints
+          - generic [ref=e117]: "4"
+          - generic [ref=e118]: All submitted requests
+        - generic [ref=e119]:
+          - generic [ref=e120]: Pending review
+          - generic [ref=e126]: "01"
+          - generic [ref=e127]: Need your attention
+        - generic [ref=e128]:
+          - generic [ref=e129]: In progress
+          - generic [ref=e134]: "01"
+          - generic [ref=e135]: Currently being handled
+        - generic [ref=e136]:
+          - generic [ref=e137]: Resolved
+          - generic [ref=e142]: "02"
+          - generic [ref=e143]: Successfully closed
+      - generic [ref=e144]:
+        - button "Staff management 3 active members" [ref=e145] [cursor=pointer]:
+          - generic [ref=e150]:
+            - strong [ref=e151]: Staff management
+            - generic [ref=e152]: 3 active members
+        - button "Residents 7 registered residents" [ref=e155] [cursor=pointer]:
+          - generic [ref=e161]:
+            - strong [ref=e162]: Residents
+            - generic [ref=e163]: 7 registered residents
+        - button "Notices 3 published updates" [ref=e166] [cursor=pointer]:
+          - generic [ref=e171]:
+            - strong [ref=e172]: Notices
+            - generic [ref=e173]: 3 published updates
+        - button "Analytics Track society performance" [ref=e176] [cursor=pointer]:
+          - generic [ref=e181]:
+            - strong [ref=e182]: Analytics
+            - generic [ref=e183]: Track society performance
+      - generic [ref=e186]:
+        - generic [ref=e187]:
+          - generic [ref=e188]:
+            - heading "Recent complaints" [level=2] [ref=e189]
+            - paragraph [ref=e190]: Latest requests submitted by residents
+          - button "View all" [ref=e191] [cursor=pointer]
+        - generic [ref=e192]:
+          - generic [ref=e193] [cursor=pointer]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Water leakage in Block B
+              - generic [ref=e196]: Archana · Block B, Flat 204 · Maintenance
+            - generic [ref=e197]: In Progress
+          - generic [ref=e201] [cursor=pointer]:
+            - generic [ref=e202]:
+              - generic [ref=e203]: Parking area lights
+              - generic [ref=e204]: Rahul · Block A, Flat 102 · Electricity
+            - generic [ref=e205]: Resolved
+          - generic [ref=e209] [cursor=pointer]:
+            - generic [ref=e210]:
+              - generic [ref=e211]: Lift not working properly
+              - generic [ref=e212]: Archana · Block B, Flat 204 · Maintenance
+            - generic [ref=e213]: Under Review
+          - generic [ref=e217] [cursor=pointer]:
+            - generic [ref=e218]:
+              - generic [ref=e219]: Cleaning required near Block A
+              - generic [ref=e220]: Rahul · Block A, Flat 102 · Cleanliness
+            - generic [ref=e221]: Resolved

@@ -1,0 +1,105 @@
+- generic [ref=f8e3]:
+  - complementary [ref=f8e4]:
+    - generic [ref=f8e10]:
+      - generic [ref=f8e11]: SocietyConnect
+      - generic [ref=f8e12]: Greenview Residency
+    - generic [ref=f8e13]: ADMINISTRATION
+    - navigation [ref=f8e14]:
+      - button "Profile" [ref=f8e15] [cursor=pointer]
+    - generic [ref=f8e21]:
+      - generic [ref=f8e22]: SA
+      - generic [ref=f8e23]:
+        - strong [ref=f8e24]: Society Administrator
+        - generic [ref=f8e25]: Administrator
+    - button "Sign out" [ref=f8e26] [cursor=pointer]
+  - main [ref=f8e31]:
+    - generic [ref=f8e32]:
+      - button "Open navigation" [ref=f8e33] [cursor=pointer]
+      - generic [ref=f8e36]:
+        - button "Notifications" [ref=f8e38] [cursor=pointer]
+        - generic [ref=f8e42]:
+          - 'button "Current society: Greenview Residency" [expanded] [active] [ref=f8e43] [cursor=pointer]'
+          - menu "Current society" [ref=f8e132]:
+            - generic [ref=f8e133]: CURRENT SOCIETY
+            - generic [ref=f8e134]:
+              - strong [ref=f8e135]: Greenview Residency
+              - generic [ref=f8e136]: Raigarh, Chhattisgarh
+            - generic [ref=f8e137]:
+              - generic [ref=f8e138]:
+                - strong [ref=f8e139]: "3"
+                - generic [ref=f8e140]: Blocks
+              - generic [ref=f8e141]:
+                - strong [ref=f8e142]: "7"
+                - generic [ref=f8e143]: Residents
+              - generic [ref=f8e144]:
+                - strong [ref=f8e145]: "4"
+                - generic [ref=f8e146]: Staff
+            - generic [ref=f8e147]:
+              - menuitem "View society details" [ref=f8e148] [cursor=pointer]
+              - menuitem "Blocks" [ref=f8e151] [cursor=pointer]
+              - menuitem "Society settings" [ref=f8e154] [cursor=pointer]
+            - button "Switch society" [disabled] [ref=f8e158]
+    - generic [ref=f8e50]:
+      - generic [ref=f8e52]:
+        - generic [ref=f8e53]: Account
+        - heading "Profile" [level=1] [ref=f8e54]
+        - paragraph [ref=f8e55]: Manage your personal information and account preferences.
+      - generic [ref=f8e56]:
+        - generic [ref=f8e57]:
+          - generic [ref=f8e58]:
+            - generic [ref=f8e59]: SA
+            - button "Choose File" [ref=f8e60]
+          - generic [ref=f8e61]:
+            - generic [ref=f8e62]: Administrator
+            - heading "Society Administrator" [level=2] [ref=f8e63]
+            - paragraph [ref=f8e64]: Greenview Residency
+            - generic [ref=f8e65]: Active account
+          - button "Edit profile" [ref=f8e67] [cursor=pointer]
+        - generic [ref=f8e71]:
+          - generic [ref=f8e73]:
+            - heading "Personal information" [level=2] [ref=f8e74]
+            - paragraph [ref=f8e75]: Keep your contact details up to date.
+          - generic [ref=f8e76]:
+            - generic [ref=f8e77]:
+              - generic [ref=f8e78]: Full name
+              - textbox "Full name" [disabled] [ref=f8e79]: Society Administrator
+            - generic [ref=f8e80]:
+              - generic [ref=f8e81]: Email address
+              - textbox "Email address" [disabled] [ref=f8e82]: admin@greenview.example.com
+            - generic [ref=f8e83]:
+              - generic [ref=f8e84]: Phone number
+              - textbox "Phone number" [disabled] [ref=f8e85]: +91 90000 10001
+            - generic [ref=f8e86]:
+              - generic [ref=f8e87]: Role
+              - textbox "Role" [disabled] [ref=f8e88]: Administrator
+        - generic [ref=f8e89]:
+          - generic [ref=f8e91]:
+            - heading "Society information" [level=2] [ref=f8e92]
+            - paragraph [ref=f8e93]: Your administration account context.
+          - generic [ref=f8e94]:
+            - generic [ref=f8e95]:
+              - generic [ref=f8e96]: Society
+              - strong [ref=f8e97]: Greenview Residency
+            - generic [ref=f8e98]:
+              - generic [ref=f8e99]: Address
+              - strong [ref=f8e100]: Greenview Residency, Raigarh
+            - generic [ref=f8e101]:
+              - generic [ref=f8e102]: Member since
+              - strong [ref=f8e103]: 12 Jan 2024
+        - generic [ref=f8e104]:
+          - generic [ref=f8e106]:
+            - heading "Preferences" [level=2] [ref=f8e107]
+            - paragraph [ref=f8e108]: Choose how SocietyConnect keeps you informed.
+          - generic [ref=f8e109]:
+            - generic [ref=f8e113]:
+              - strong [ref=f8e114]: Notifications
+              - generic [ref=f8e115]: Receive updates about complaints and society notices.
+            - checkbox "Notifications Receive updates about complaints and society notices." [checked] [disabled] [ref=f8e116]
+        - generic [ref=f8e117]:
+          - generic [ref=f8e119]:
+            - heading "Security" [level=2] [ref=f8e120]
+            - paragraph [ref=f8e121]: Protect access to your SocietyConnect account.
+          - button "Change password Use a strong password with at least 6 characters." [ref=f8e122] [cursor=pointer]:
+            - generic [ref=f8e127]:
+              - strong [ref=f8e128]: Change password
+              - generic [ref=f8e129]: Use a strong password with at least 6 characters.

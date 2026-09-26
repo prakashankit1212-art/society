@@ -1,0 +1,326 @@
+- generic [ref=f8e3]:
+  - complementary [ref=f8e4]:
+    - generic [ref=f8e10]:
+      - generic [ref=f8e11]: SocietyConnect
+      - generic [ref=f8e12]: Greenview Residency
+    - generic [ref=f8e13]: MANAGEMENT
+    - navigation [ref=f8e14]:
+      - link "Overview" [ref=f8e15] [cursor=pointer]:
+        - /url: /president/dashboard
+      - link "Complaints" [ref=f8e21] [cursor=pointer]:
+        - /url: /president/complaints
+      - link "Staff" [ref=f8e27] [cursor=pointer]:
+        - /url: /president/staff
+      - link "Residents" [ref=f8e32] [cursor=pointer]:
+        - /url: /president/residents
+      - link "Notices" [ref=f8e38] [cursor=pointer]:
+        - /url: /president/notices
+      - link "Analytics" [ref=f8e43] [cursor=pointer]:
+        - /url: /president/analytics
+      - button "Profile" [ref=f8e48] [cursor=pointer]
+    - generic [ref=f8e54]:
+      - generic [ref=f8e55]: SP
+      - generic [ref=f8e56]:
+        - strong [ref=f8e57]: Society President
+        - generic [ref=f8e58]: Society President
+    - button "Sign out" [ref=f8e59] [cursor=pointer]
+  - main [ref=f8e64]:
+    - generic [ref=f8e65]:
+      - button "Open navigation" [ref=f8e66] [cursor=pointer]
+      - generic [ref=f8e69]:
+        - button "Notifications" [ref=f8e71] [cursor=pointer]
+        - 'button "Current society: Greenview Residency" [ref=f8e76] [cursor=pointer]'
+    - generic [ref=f8e82]:
+      - generic [ref=f8e83]:
+        - generic [ref=f8e84]:
+          - generic [ref=f8e85]: Society intelligence
+          - heading "Analytics" [level=1] [ref=f8e86]
+          - paragraph [ref=f8e87]: Understand what is happening across complaints, residents, staff, and society operations.
+        - generic [ref=f8e88]:
+          - generic [ref=f8e89]: Apr 1 – Sep 26, 2026
+          - button "View complaints" [ref=f8e93] [cursor=pointer]
+      - generic [ref=f8e98]:
+        - generic [ref=f8e99]:
+          - generic [ref=f8e100]: Period
+          - combobox [ref=f8e101]:
+            - option "Last 3 months"
+            - option "Last 6 months" [selected]
+            - option "Last 12 months"
+            - option "This year"
+            - option "Custom range"
+        - generic [ref=f8e102]:
+          - generic [ref=f8e103]: Category
+          - combobox [ref=f8e104]:
+            - option "All Categories" [selected]
+            - option "Maintenance"
+            - option "Security"
+            - option "Electricity"
+            - option "Cleanliness"
+            - option "Parking"
+        - generic [ref=f8e105]:
+          - generic [ref=f8e106]: Block
+          - combobox [ref=f8e107]:
+            - option "All Blocks" [selected]
+            - option "A"
+            - option "B"
+            - option "C"
+        - generic [ref=f8e108]:
+          - strong [ref=f8e109]: "4"
+          - generic [ref=f8e110]: complaints in view
+      - generic [ref=f8e111]:
+        - generic [ref=f8e112]:
+          - generic [ref=f8e113]: Total complaints
+          - strong [ref=f8e114]: "4"
+          - generic [ref=f8e115]: Apr 1 – Sep 26, 2026
+          - generic [ref=f8e116]: No previous-period data
+        - generic [ref=f8e117]:
+          - generic [ref=f8e118]: Resolution rate
+          - strong [ref=f8e119]: 50%
+          - generic [ref=f8e120]: 2 resolved of 4
+          - generic [ref=f8e121]: "Target: 90%"
+        - generic [ref=f8e122]:
+          - generic [ref=f8e123]: Avg. resolution
+          - strong [ref=f8e124]:
+            - text: "0.5"
+            - emphasis [ref=f8e125]: days
+          - generic [ref=f8e126]: Based on resolved requests in view
+          - generic [ref=f8e127]: Faster is better
+        - generic [ref=f8e128]:
+          - generic [ref=f8e129]: Open work
+          - strong [ref=f8e130]: "2"
+          - generic [ref=f8e131]: Needs team attention
+          - generic [ref=f8e132]: 1 high priority
+      - generic [ref=f8e133]:
+        - generic [ref=f8e134]:
+          - generic [ref=f8e135]:
+            - generic [ref=f8e136]:
+              - generic [ref=f8e137]: Demand
+              - heading "Complaint volume" [level=2] [ref=f8e138]
+              - paragraph [ref=f8e139]: Monthly submissions across the selected view
+            - generic [ref=f8e140]:
+              - strong [ref=f8e141]: "4"
+              - text: total
+          - generic [ref=f8e142]:
+            - generic [ref=f8e143]: Resolved
+            - generic [ref=f8e145]: In progress
+            - generic [ref=f8e147]: Under review
+          - generic "Complaint volume by month" [ref=f8e149]:
+            - generic [ref=f8e150]:
+              - generic [ref=f8e151]: "4"
+              - generic [ref=f8e152]: "2"
+              - generic [ref=f8e153]: "0"
+            - generic [ref=f8e154]:
+              - generic [ref=f8e155]: Avg 0.7
+              - button "Apr" [ref=f8e157] [cursor=pointer]
+              - button "May" [ref=f8e160] [cursor=pointer]
+              - button "Jun" [ref=f8e163] [cursor=pointer]
+              - button "Jul" [ref=f8e166] [cursor=pointer]
+              - button "4 Aug" [ref=f8e169] [cursor=pointer]:
+                - generic [ref=f8e170]: "4"
+                - generic [ref=f8e175]: Aug
+              - button "Sep" [ref=f8e176] [cursor=pointer]
+          - generic [ref=f8e179]:
+            - generic [ref=f8e180]:
+              - strong [ref=f8e181]: "4"
+              - generic [ref=f8e182]: Aug peak
+            - generic [ref=f8e183]:
+              - strong [ref=f8e184]: "0.7"
+              - generic [ref=f8e185]: monthly average
+            - button "View filtered complaints →" [ref=f8e186] [cursor=pointer]
+        - generic [ref=f8e187]:
+          - generic [ref=f8e188]: Management signal
+          - heading "What needs attention?" [level=2] [ref=f8e189]
+          - generic [ref=f8e190]:
+            - button "1 high-priority open Review urgent requests first." [ref=f8e191] [cursor=pointer]:
+              - generic [ref=f8e196]:
+                - strong [ref=f8e197]: 1 high-priority open
+                - generic [ref=f8e198]: Review urgent requests first.
+            - button "0 unassigned complaints Every complaint has an owner." [ref=f8e201] [cursor=pointer]:
+              - generic [ref=f8e207]:
+                - strong [ref=f8e208]: 0 unassigned complaints
+                - generic [ref=f8e209]: Every complaint has an owner.
+            - button "3 active staff 1 team members carrying 2+ open items." [ref=f8e212] [cursor=pointer]:
+              - generic [ref=f8e216]:
+                - strong [ref=f8e217]: 3 active staff
+                - generic [ref=f8e218]: 1 team members carrying 2+ open items.
+          - generic [ref=f8e221]:
+            - generic [ref=f8e222]: Peak demand
+            - strong [ref=f8e223]: "Aug: 4 complaints"
+            - generic [ref=f8e224]: Based on all complaint activity in the selected period.
+        - generic [ref=f8e225]:
+          - generic [ref=f8e226]:
+            - generic [ref=f8e227]:
+              - generic [ref=f8e228]: Work queue
+              - heading "Status distribution" [level=2] [ref=f8e229]
+              - paragraph [ref=f8e230]: Where complaints currently sit in the workflow
+            - generic [ref=f8e231]:
+              - strong [ref=f8e232]: 50%
+              - text: resolved
+          - generic [ref=f8e233]:
+            - generic [ref=f8e235]:
+              - strong [ref=f8e236]: "4"
+              - generic [ref=f8e237]: requests
+            - generic [ref=f8e238]:
+              - generic [ref=f8e239]:
+                - strong [ref=f8e241]: "2"
+                - generic [ref=f8e242]: Resolved
+              - generic [ref=f8e243]:
+                - strong [ref=f8e245]: "1"
+                - generic [ref=f8e246]: In progress
+              - generic [ref=f8e247]:
+                - strong [ref=f8e249]: "1"
+                - generic [ref=f8e250]: Under review
+              - generic [ref=f8e251]:
+                - strong [ref=f8e253]: "1"
+                - generic [ref=f8e254]: Urgent open
+        - generic [ref=f8e255]:
+          - generic [ref=f8e257]:
+            - generic [ref=f8e258]: Patterns
+            - heading "Requests by category" [level=2] [ref=f8e259]
+            - paragraph [ref=f8e260]: Which services generate the most work
+          - generic [ref=f8e261]:
+            - button "Maintenance 2" [ref=f8e262] [cursor=pointer]:
+              - generic [ref=f8e263]:
+                - generic [ref=f8e264]: Maintenance
+                - strong [ref=f8e265]: "2"
+            - button "Electricity 1" [ref=f8e268] [cursor=pointer]:
+              - generic [ref=f8e269]:
+                - generic [ref=f8e270]: Electricity
+                - strong [ref=f8e271]: "1"
+            - button "Cleanliness 1" [ref=f8e274] [cursor=pointer]:
+              - generic [ref=f8e275]:
+                - generic [ref=f8e276]: Cleanliness
+                - strong [ref=f8e277]: "1"
+        - generic [ref=f8e280]:
+          - generic [ref=f8e282]:
+            - generic [ref=f8e283]: Priority
+            - heading "Where risk is concentrated" [level=2] [ref=f8e284]
+            - paragraph [ref=f8e285]: Current queue by urgency
+          - generic [ref=f8e286]:
+            - generic [ref=f8e289]:
+              - generic [ref=f8e290]: High priority
+              - strong [ref=f8e291]: "1"
+            - generic [ref=f8e296]:
+              - generic [ref=f8e297]: Medium priority
+              - strong [ref=f8e298]: "2"
+            - generic [ref=f8e303]:
+              - generic [ref=f8e304]: Low priority
+              - strong [ref=f8e305]: "1"
+        - generic [ref=f8e308]:
+          - generic [ref=f8e310]:
+            - generic [ref=f8e311]: Residents
+            - heading "Complaint activity by block" [level=2] [ref=f8e312]
+            - paragraph [ref=f8e313]: Where requests are coming from
+          - generic [ref=f8e314]:
+            - button "Block A 2" [ref=f8e315] [cursor=pointer]:
+              - generic [ref=f8e316]: Block A
+              - strong [ref=f8e319]: "2"
+            - button "Block B 2" [ref=f8e320] [cursor=pointer]:
+              - generic [ref=f8e321]: Block B
+              - strong [ref=f8e324]: "2"
+            - button "Block C 0" [ref=f8e325] [cursor=pointer]:
+              - generic [ref=f8e326]: Block C
+              - strong [ref=f8e328]: "0"
+        - generic [ref=f8e329]:
+          - generic [ref=f8e331]:
+            - generic [ref=f8e332]: Service cadence
+            - heading "When requests arrive" [level=2] [ref=f8e333]
+            - paragraph [ref=f8e334]: Submission pattern by day
+          - generic [ref=f8e335]:
+            - generic [ref=f8e336]:
+              - generic [ref=f8e337]: "1"
+              - generic [ref=f8e339]: Mon
+            - generic [ref=f8e340]:
+              - generic [ref=f8e341]: "1"
+              - generic [ref=f8e343]: Tue
+            - generic [ref=f8e344]: Wed
+            - generic [ref=f8e348]:
+              - generic [ref=f8e349]: "1"
+              - generic [ref=f8e351]: Thu
+            - generic [ref=f8e352]: Fri
+            - generic [ref=f8e356]:
+              - generic [ref=f8e357]: "1"
+              - generic [ref=f8e359]: Sat
+            - generic [ref=f8e360]: Sun
+        - generic [ref=f8e364]:
+          - generic [ref=f8e365]:
+            - generic [ref=f8e366]:
+              - generic [ref=f8e367]: Team capacity
+              - heading "Staff workload" [level=2] [ref=f8e368]
+              - paragraph [ref=f8e369]: Open items and total assignments across the maintenance team
+            - button "Manage staff" [ref=f8e370] [cursor=pointer]
+          - generic [ref=f8e371]:
+            - button "RK Ramesh Kumar Maintenance · Active 2 open · 2 total" [ref=f8e372] [cursor=pointer]:
+              - generic [ref=f8e373]: RK
+              - generic [ref=f8e374]:
+                - strong [ref=f8e375]: Ramesh Kumar
+                - generic [ref=f8e376]: Maintenance · Active
+              - generic [ref=f8e377]:
+                - strong [ref=f8e378]: "2"
+                - generic [ref=f8e379]: open · 2 total
+            - button "VS Vikram Shah Electricity · Active 0 open · 1 total" [ref=f8e382] [cursor=pointer]:
+              - generic [ref=f8e383]: VS
+              - generic [ref=f8e384]:
+                - strong [ref=f8e385]: Vikram Shah
+                - generic [ref=f8e386]: Electricity · Active
+              - generic [ref=f8e387]:
+                - strong [ref=f8e388]: "0"
+                - generic [ref=f8e389]: open · 1 total
+            - button "MP Meena Patel Cleanliness · Active 0 open · 1 total" [ref=f8e392] [cursor=pointer]:
+              - generic [ref=f8e393]: MP
+              - generic [ref=f8e394]:
+                - strong [ref=f8e395]: Meena Patel
+                - generic [ref=f8e396]: Cleanliness · Active
+              - generic [ref=f8e397]:
+                - strong [ref=f8e398]: "0"
+                - generic [ref=f8e399]: open · 1 total
+            - button "AS Arjun Singh Security · On Leave 0 open · 0 total" [ref=f8e402] [cursor=pointer]:
+              - generic [ref=f8e403]: AS
+              - generic [ref=f8e404]:
+                - strong [ref=f8e405]: Arjun Singh
+                - generic [ref=f8e406]: Security · On Leave
+              - generic [ref=f8e407]:
+                - strong [ref=f8e408]: "0"
+                - generic [ref=f8e409]: open · 0 total
+        - generic [ref=f8e412]:
+          - generic [ref=f8e413]:
+            - generic [ref=f8e414]:
+              - generic [ref=f8e415]: Advanced analytics
+              - heading "Operational intelligence" [level=2] [ref=f8e416]
+              - paragraph [ref=f8e417]: Turn raw activity into signals you can act on.
+            - button "Export view" [ref=f8e418] [cursor=pointer]
+          - generic [ref=f8e422]:
+            - generic [ref=f8e423]:
+              - generic [ref=f8e424]: Open workload ratio
+              - strong [ref=f8e425]: 50%
+              - generic [ref=f8e428]: 2 active of 4 total complaints
+            - generic [ref=f8e429]:
+              - generic [ref=f8e430]: Assignment coverage
+              - strong [ref=f8e431]: 100%
+              - generic [ref=f8e434]: 4 complaints currently owned by staff
+            - generic [ref=f8e435]:
+              - generic [ref=f8e436]: High-priority exposure
+              - strong [ref=f8e437]: 25%
+              - generic [ref=f8e440]: 1 unresolved high-priority requests
+            - generic [ref=f8e441]:
+              - generic [ref=f8e442]: Resident reach
+              - strong [ref=f8e443]: 29%
+              - generic [ref=f8e446]: Residents who have raised at least one request in view
+          - generic [ref=f8e447]:
+            - generic [ref=f8e453]:
+              - strong [ref=f8e454]: Recommended focus
+              - paragraph [ref=f8e455]: Review 1 high-priority request before routine work.
+            - button "Take action →" [ref=f8e456] [cursor=pointer]
+        - generic [ref=f8e457]:
+          - generic [ref=f8e464]:
+            - generic [ref=f8e465]: Active residents
+            - strong [ref=f8e466]: "6"
+          - generic [ref=f8e472]:
+            - generic [ref=f8e473]: Published notices
+            - strong [ref=f8e474]: "3"
+          - generic [ref=f8e481]:
+            - generic [ref=f8e482]: High priority total
+            - strong [ref=f8e483]: "1"
+          - generic [ref=f8e489]:
+            - generic [ref=f8e490]: Peak request month
+            - strong [ref=f8e491]: Aug

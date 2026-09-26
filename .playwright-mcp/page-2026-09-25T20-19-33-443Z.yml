@@ -1,0 +1,82 @@
+- generic [ref=f5e3]:
+  - complementary [ref=f5e4]:
+    - generic [ref=f5e10]:
+      - generic [ref=f5e11]: SocietyConnect
+      - generic [ref=f5e12]: Greenview Residency
+    - generic [ref=f5e13]: MANAGEMENT
+    - navigation [ref=f5e14]:
+      - link "Overview" [ref=f5e15] [cursor=pointer]:
+        - /url: /president/dashboard
+      - link "Complaints" [ref=f5e21] [cursor=pointer]:
+        - /url: /president/complaints
+      - link "Staff" [ref=f5e27] [cursor=pointer]:
+        - /url: /president/staff
+      - link "Residents" [ref=f5e32] [cursor=pointer]:
+        - /url: /president/residents
+      - link "Notices" [ref=f5e38] [cursor=pointer]:
+        - /url: /president/notices
+      - link "Analytics" [ref=f5e43] [cursor=pointer]:
+        - /url: /president/analytics
+      - button "Profile" [ref=f5e48] [cursor=pointer]
+    - generic [ref=f5e54]:
+      - generic [ref=f5e55]: SP
+      - generic [ref=f5e56]:
+        - strong [ref=f5e57]: Society President
+        - generic [ref=f5e58]: Society President
+    - button "Sign out" [ref=f5e59] [cursor=pointer]
+  - main [ref=f5e64]:
+    - generic [ref=f5e65]:
+      - textbox "Search" [ref=f5e70]:
+        - /placeholder: Search complaints, residents...
+      - generic [ref=f5e71]:
+        - button "Notifications" [ref=f5e73] [cursor=pointer]
+        - 'button "Current society: Greenview Residency" [ref=f5e78] [cursor=pointer]':
+          - generic [ref=f5e82]: Greenview Residency
+    - generic [ref=f5e85]:
+      - button "Back" [ref=f5e86] [cursor=pointer]
+      - generic [ref=f5e90]:
+        - generic [ref=f5e91]: Current society
+        - heading "Greenview Residency" [level=1] [ref=f5e92]
+        - paragraph [ref=f5e93]: Society information and community contacts.
+      - region "Society summary" [ref=f5e94]:
+        - article [ref=f5e95]:
+          - generic [ref=f5e100]: Blocks
+          - strong [ref=f5e101]: "3"
+        - article [ref=f5e102]:
+          - generic [ref=f5e108]: Residents
+          - strong [ref=f5e109]: "7"
+        - article [ref=f5e110]:
+          - generic [ref=f5e115]: Staff
+          - strong [ref=f5e116]: "4"
+      - generic [ref=f5e117]:
+        - generic [ref=f5e118]:
+          - generic [ref=f5e119]: Society profile
+          - heading "Basic information" [level=2] [ref=f5e120]
+          - generic [ref=f5e121]:
+            - generic [ref=f5e122]:
+              - term [ref=f5e123]: Society name
+              - definition [ref=f5e124]: Greenview Residency
+            - generic [ref=f5e125]:
+              - term [ref=f5e126]: Location
+              - definition [ref=f5e127]: Raigarh, Chhattisgarh
+            - generic [ref=f5e128]:
+              - term [ref=f5e129]: Address
+              - definition [ref=f5e130]: Greenview Residency, Raigarh, Chhattisgarh
+            - generic [ref=f5e131]:
+              - term [ref=f5e132]: Your role
+              - definition [ref=f5e133]: Society President
+        - generic [ref=f5e134]:
+          - generic [ref=f5e135]: Contact
+          - heading "Society office" [level=2] [ref=f5e136]
+          - generic [ref=f5e137]:
+            - link "Phone +91 90000 10000" [ref=f5e138] [cursor=pointer]:
+              - /url: tel:+91 90000 10000
+              - generic [ref=f5e142]:
+                - generic [ref=f5e143]: Phone
+                - strong [ref=f5e144]: +91 90000 10000
+            - link "Email president@greenview.example.com" [ref=f5e145] [cursor=pointer]:
+              - /url: mailto:president@greenview.example.com
+              - generic [ref=f5e148]:
+                - generic [ref=f5e149]: Email
+                - strong [ref=f5e150]: president@greenview.example.com
+      - button "View blocks" [ref=f5e151] [cursor=pointer]

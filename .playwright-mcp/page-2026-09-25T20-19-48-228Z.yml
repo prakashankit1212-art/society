@@ -1,0 +1,90 @@
+- generic [ref=f6e3]:
+  - complementary [ref=f6e4]:
+    - generic [ref=f6e10]:
+      - generic [ref=f6e11]: SocietyConnect
+      - generic [ref=f6e12]: Greenview Residency
+    - generic [ref=f6e13]: HOME
+    - navigation [ref=f6e14]:
+      - link "Overview" [ref=f6e15] [cursor=pointer]:
+        - /url: /resident/dashboard
+      - link "My Complaints" [ref=f6e21] [cursor=pointer]:
+        - /url: /resident/complaints
+      - link "Feedback" [ref=f6e27] [cursor=pointer]:
+        - /url: /resident/feedback
+      - button "Profile" [ref=f6e31] [cursor=pointer]
+    - generic [ref=f6e37]:
+      - generic [ref=f6e38]: AS
+      - generic [ref=f6e39]:
+        - strong [ref=f6e40]: Archana Sharma
+        - generic [ref=f6e41]: Block B • Flat 204
+    - button "Sign out" [ref=f6e42] [cursor=pointer]
+  - main [ref=f6e47]:
+    - generic [ref=f6e48]:
+      - button "Open navigation" [ref=f6e49] [cursor=pointer]
+      - generic [ref=f6e52]:
+        - button "Notifications" [ref=f6e54] [cursor=pointer]
+        - 'button "Current society: Greenview Residency" [ref=f6e59] [cursor=pointer]'
+    - generic [ref=f6e65]:
+      - generic [ref=f6e66]:
+        - generic [ref=f6e67]:
+          - generic [ref=f6e68]: Tuesday, 25 September 2026
+          - heading "Good morning, Archana" [level=1] [ref=f6e69]
+          - paragraph [ref=f6e70]: Block B · Flat 204
+        - button "Report an issue" [ref=f6e71] [cursor=pointer]
+      - generic [ref=f6e74]:
+        - generic [ref=f6e75]:
+          - generic [ref=f6e76]: Open complaints
+          - generic [ref=f6e83]: "02"
+          - generic [ref=f6e84]: Need attention
+        - generic [ref=f6e85]:
+          - generic [ref=f6e86]: In progress
+          - generic [ref=f6e91]: "01"
+          - generic [ref=f6e92]: Being handled
+        - generic [ref=f6e93]:
+          - generic [ref=f6e94]: Resolved
+          - generic [ref=f6e99]: "02"
+          - generic [ref=f6e100]: This month
+      - generic [ref=f6e101]:
+        - generic [ref=f6e106]:
+          - heading "Water supply maintenance" [level=2] [ref=f6e107]
+          - paragraph [ref=f6e108]: Water supply will be unavailable in Block B tomorrow from 10 AM to 2 PM.
+        - button "View notice" [ref=f6e109] [cursor=pointer]
+      - generic [ref=f6e112]:
+        - generic [ref=f6e113]:
+          - generic [ref=f6e114]:
+            - generic [ref=f6e115]:
+              - heading "Recent complaints" [level=2] [ref=f6e116]
+              - paragraph [ref=f6e117]: Track your latest requests
+            - button "View all" [ref=f6e118] [cursor=pointer]
+          - generic [ref=f6e119]:
+            - generic [ref=f6e120] [cursor=pointer]:
+              - generic [ref=f6e121]:
+                - generic [ref=f6e122]: Water leakage in Block B
+                - generic [ref=f6e123]: Maintenance · 10 Aug 2026
+              - generic [ref=f6e124]: In Progress
+            - generic [ref=f6e128] [cursor=pointer]:
+              - generic [ref=f6e129]:
+                - generic [ref=f6e130]: Parking area lights
+                - generic [ref=f6e131]: Electricity · 08 Aug 2026
+              - generic [ref=f6e132]: Resolved
+            - generic [ref=f6e136] [cursor=pointer]:
+              - generic [ref=f6e137]:
+                - generic [ref=f6e138]: Lift not working properly
+                - generic [ref=f6e139]: Maintenance · 06 Aug 2026
+              - generic [ref=f6e140]: Under Review
+        - generic [ref=f6e144]:
+          - generic [ref=f6e145]:
+            - generic [ref=f6e146]:
+              - heading "Society updates" [level=2] [ref=f6e147]
+              - paragraph [ref=f6e148]: Useful notices from management
+            - button "View all" [ref=f6e149] [cursor=pointer]
+          - generic [ref=f6e150]:
+            - generic [ref=f6e156]:
+              - strong [ref=f6e157]: Water supply maintenance
+              - generic [ref=f6e158]: Water supply will be unavailable in Block B tomorrow from 10 AM to 2 PM.
+            - generic [ref=f6e164]:
+              - strong [ref=f6e165]: Security gate system update
+              - generic [ref=f6e166]: The new entry system will begin on 1 October. Residents will receive access instructions shortly.
+            - generic [ref=f6e172]:
+              - strong [ref=f6e173]: Monthly maintenance inspection
+              - generic [ref=f6e174]: Routine lift and electrical inspections will take place across Blocks A, B and C this weekend.
