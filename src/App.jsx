@@ -15,7 +15,7 @@ import PresidentAnalytics from "./pages/president/PresidentAnalytics";
 import PresidentNotices from "./pages/president/PresidentNotices";
 import PresidentResidents from "./pages/president/PresidentResidents";
 import Profile from "./pages/Profile";
-import { SocietyDetails, SocietyBlocks, SocietySettings } from "./pages/SocietyPages";
+import { SocietyDetails, SocietyBlocks, SocietyBlockDetails, SocietySettings, SocietyCreatePage, BlockCreatePage } from "./pages/SocietyPages";
 import "./presentation.css";
 
 function App() {
@@ -33,7 +33,16 @@ function App() {
         <Route path="/resident/blocks" element={<SocietyBlocks role="resident" />} />
         <Route path="/admin/profile" element={<Profile role="admin" />} />
         <Route path="/admin/society" element={<SocietyDetails role="admin" />} />
+        <Route path="/admin/society/new" element={<SocietyCreatePage />} />
         <Route path="/admin/blocks" element={<SocietyBlocks role="admin" />} />
+        <Route path="/admin/blocks/new" element={<BlockCreatePage />} />
+        <Route path="/admin/blocks/:id" element={<SocietyBlockDetails />} />
+        <Route path="/admin/administration" element={<Profile role="admin" />} />
+        <Route path="/admin/notifications" element={<Profile role="admin" />} />
+        <Route path="/admin/security" element={<Profile role="admin" />} />
+        <Route path="/admin/activity" element={<Profile role="admin" />} />
+        <Route path="/admin/services" element={<Profile role="admin" />} />
+        <Route path="/admin/account" element={<Profile role="admin" />} />
         <Route path="/president/dashboard" element={<PresidentDashboard />} />
         <Route path="/president/complaints" element={<PresidentComplaints />} />
         <Route path="/president/complaints/:id" element={<PresidentComplaintDetails />} />

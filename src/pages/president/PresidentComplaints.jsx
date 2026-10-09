@@ -14,7 +14,7 @@ export default function PresidentComplaints(){
   const [priority,setPriority]=useState(params.get("priority")||"All Priority");
   const [category,setCategory]=useState(params.get("category")||"All Categories");
   const [assigned,setAssigned]=useState(params.get("assigned")||"All Assignees");
-  const [month,setMonth]=useState(initialMonth);
+  const [month] = useState(initialMonth);
   const [complaints,setComplaints]=useState(()=>getComplaints());
   const staff=getStaff();
   useEffect(()=>{const refresh=()=>setComplaints(getComplaints());window.addEventListener("societyconnect:update",refresh);return()=>window.removeEventListener("societyconnect:update",refresh)},[]);

@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import AppShell from "../../components/AppShell";
 import Icon from "../../components/Icon";
-import { getAnalytics, getComplaints, getStaff, getResidents, getNotices } from "../../data/store";
+import { getComplaints, getStaff, getResidents, getNotices } from "../../data/store";
 import "./Phase2.css";
 
 const STATUS_KEYS = ["Resolved", "In Progress", "Under Review"];

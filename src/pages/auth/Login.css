@@ -27,9 +27,17 @@
 .login-society-button>svg:last-child { color:#77827b; transition:transform .18s ease; }
 .login-society-button>svg.rotated { transform:rotate(180deg); }
 .login-society-button:hover { border-color:#d6ddd6; }
-.login-society-popover { position:absolute; top:calc(100% + 8px); right:0; display:grid; gap:5px; width:240px; padding:15px; border:1px solid var(--line); border-radius:11px; background:#fff; box-shadow:0 8px 22px rgba(23,33,27,.09); }
-.login-society-popover strong { font-size:13px; }
-.login-society-popover span { color:var(--muted); font-size:12px; }
+.login-society-popover { position:absolute; top:calc(100% + 8px); right:0; display:grid; gap:5px; width:min(280px,calc(100vw - 32px)); padding:12px; border:1px solid var(--line); border-radius:11px; background:#fff; box-shadow:0 8px 22px rgba(23,33,27,.09); }
+.login-society-popover>strong { padding:2px 3px 5px; font-size:12px; }
+.login-society-options { display:grid; gap:3px; max-height:260px; overflow:auto; }
+.login-society-option { display:grid; grid-template-columns:29px minmax(0,1fr) 16px; align-items:center; gap:8px; min-height:45px; padding:5px 6px; border-radius:8px; background:transparent; color:var(--ink); text-align:left; cursor:pointer; }
+.login-society-option:hover,.login-society-option.selected { background:#f0f5f1; }
+.login-society-option-mark { display:grid; width:28px; height:28px; place-items:center; border-radius:8px; background:var(--green-soft); color:var(--green); }
+.login-society-option-copy { display:grid; gap:3px; min-width:0; }
+.login-society-option-copy strong,.login-society-option-copy small { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.login-society-option-copy strong { font-size:10px; }
+.login-society-option-copy small { color:var(--muted); font-size:9px; }
+.login-society-option>svg:last-child { color:var(--green); }
 .login-card-v2 { width:min(100%,490px); }
 .login-header-v2 .eyebrow { display:block; color:#87948c; font-size:11px; letter-spacing:.12em; }
 .login-header-v2 h2 { margin-top:15px; font-size:36px; line-height:1.1; font-weight:650; letter-spacing:0; }
